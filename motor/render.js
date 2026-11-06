@@ -149,6 +149,29 @@ const T = {
   </div>
   ${FOOT(th)}`}),
 
+  // 5 · HISTORIA (9:16). modo: "nuevo_post" | "dato" | "encuesta"
+  //   nuevo_post: imagen = ruta local o URL de la portada del post
+  //   encuesta: deja el centro libre para que Belén pegue el sticker de encuesta/pregunta
+  historia: (d, th) => ({ w:1080, h:1920, html:`
+  <style>
+   .top{position:absolute;left:80px;right:80px;top:220px;display:flex;justify-content:space-between;align-items:center}
+   .h{position:absolute;left:80px;right:80px;top:${d.modo==='nuevo_post'?330:(d.modo==='encuesta'?360:640)}px;font-size:${d.tam||(d.modo==='dato'?130:110)}px}
+   .sub{position:absolute;left:80px;right:100px;top:${d.top_sub||1080}px;font-size:44px;line-height:1.35}
+   .post{position:absolute;left:200px;right:200px;top:${d.top_post||570}px}
+   .post .wbody{padding:0;margin:8px}.post img{display:block;width:100%}
+   .hueco{position:absolute;left:120px;right:120px;top:${d.top_hueco||900}px;height:520px;border:6px dashed ${th.mut};display:flex;align-items:center;justify-content:center;font-family:Mono;font-size:28px;color:${th.mut};letter-spacing:.06em;text-align:center}
+   .cta{position:absolute;left:80px;right:80px;bottom:330px;font-family:Mono;font-weight:700;font-size:30px;letter-spacing:.04em;text-align:center;color:${th.mut}}
+   .foot{bottom:200px}
+  </style>
+  <div class="top"><span class="chip">// ${d.etiqueta||(d.modo==='nuevo_post'?'nuevo post':(d.modo==='encuesta'?'encuesta':'¿sabías que?'))}</span></div>
+  ${d.modo==='dato'?icono(d, th, 260, 'left:80px;top:340px'):''}
+  <div class="h">${hl(d.titulo)}</div>
+  ${d.modo==='nuevo_post'?`<div class="post">${VENTANA(d.ventana||'nuevo_post.jpg', `<img src="${d.imagen}">`, th)}</div>`:''}
+  ${d.modo==='dato'&&d.subtitulo?`<div class="sub">${d.subtitulo}</div>`:''}
+  ${d.modo==='encuesta'&&d.hueco_visible?`<div class="hueco">[ sticker acá ]</div>`:''}
+  ${d.cta?`<div class="cta">${d.cta}</div>`:''}
+  ${FOOT(th)}`}),
+
   // 4 · CÓMO TRABAJO (sin precios)
   como_trabajo: (d, th) => ({ w:1080, h:1350, html:`
   <style>
@@ -169,7 +192,7 @@ const T = {
   <div class="tags">${(d.etiquetas||[]).map(t=>`<span>✓ ${t}</span>`).join('')}</div>
   ${FOOT(th)}`}),
 };
-const DEF = { novedad:'grafito', carrusel_portada:'crema', carrusel_slide:'crema', reel_portada:'bosque', como_trabajo:'crema' };
+const DEF = { historia:'grafito', novedad:'grafito', carrusel_portada:'crema', carrusel_slide:'crema', reel_portada:'bosque', como_trabajo:'crema' };
 
 (async () => {
   const [specPath, out] = process.argv.slice(2);

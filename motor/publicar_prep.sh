@@ -15,5 +15,5 @@ if [ -f $SPECS/reel.txt ]; then # reel: frames s1..sN → video
   rm -f $OUT/s*.jpg; cp /tmp/s1.png /tmp/cover.png; python3 -c "from PIL import Image;Image.open('/tmp/cover.png').convert('RGB').save('$OUT/portada.jpg',quality=92)"
 fi
 [ -n "$DRY" ] && { ls -la $OUT; exit 0; }
-cd $R && git add media/$SLUG && git -c user.name="BC Informática" -c user.email="bc.informatica.pna@gmail.com" commit -qm "Publicación $SLUG" && git push -q origin HEAD
+cd $R && git pull -q --rebase; git add media/$SLUG && git -c user.name="BC Informática" -c user.email="bc.informatica.pna@gmail.com" commit -qm "Publicación $SLUG" && git push -q origin HEAD
 for f in $(ls $OUT | sort -V); do echo "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/$SLUG/$f"; done
