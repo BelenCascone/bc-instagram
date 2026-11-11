@@ -1,5 +1,5 @@
 {
- "_info": "Calendario Instagram BC 12/11 al 04/12/2026. La tarea diaria publica a las 11:55 ART lo que tenga fecha de hoy y estado 'pendiente'. Cuenta instagramPageId 17841476355267605 (NUNCA Litoral 17841426335527747).",
+ "_info": "Calendario Instagram BC 12/11 al 30/11/2026. La tarea diaria publica a las 11:55 ART lo que tenga fecha de hoy y estado 'pendiente'. Cuenta instagramPageId 17841476355267605 (NUNCA Litoral 17841426335527747).",
  "feed": [
   {
    "fecha": "2026-11-12",
@@ -16,38 +16,34 @@
   {
    "fecha": "2026-11-13",
    "hora": "12:00",
-   "slug": "yo-no-toque-nada",
-   "tipo": "carrusel",
-   "media": [
-    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-13-yo-no-toque-nada/s1.jpg",
-    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-13-yo-no-toque-nada/s2.jpg",
-    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-13-yo-no-toque-nada/s3.jpg",
-    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-13-yo-no-toque-nada/s4.jpg",
-    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-13-yo-no-toque-nada/s5.jpg"
-   ],
-   "caption": "Grandes éxitos del soporte técnico 🎶💻\n\n¿Cuál dijiste vos? Confesá en los comentarios 😅\n\nY si la compu quedó rara después de \"instalar una cosita nomás\", mandame \"PC\" por mensaje y lo vemos.\n\n#soportetecnico #humor #serviciotecnico #Paraná #EntreRíos #BCInformática",
-   "estado": "pendiente"
-  },
-  {
-   "fecha": "2026-11-14",
-   "hora": "12:00",
    "slug": "todo-tranqui",
    "tipo": "foto",
    "media": [
-    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-14-todo-tranqui/s1.jpg"
+    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-13-todo-tranqui/s1.jpg"
    ],
    "caption": "Si funciona, no lo toques. Tuni no aprendió 🔥🐾\n\nGuardalo para la próxima vez que quieras \"mejorar\" algo que andaba 📌\n\n#memes #informatica #humor #Paraná #EntreRíos #BCInformática",
    "estado": "pendiente"
   },
   {
-   "fecha": "2026-11-16",
+   "fecha": "2026-11-14",
    "hora": "12:00",
    "slug": "antes-de-preguntarle",
    "tipo": "foto",
    "media": [
-    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-16-antes-de-preguntarle/s1.jpg"
+    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-14-antes-de-preguntarle/s1.jpg"
    ],
    "caption": "Antes de preguntarle al informático… ¿pensaste? 🤔🐾\n\nPrimero: ¿probaste reiniciar? Segundo: ¿está enchufada? Tercero: si nada de eso funcionó, ahí sí, mandame \"PC\" por mensaje 😉\n\n#memes #informatica #serviciotecnico #Paraná #EntreRíos #BCInformática",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-11-16",
+   "hora": "12:00",
+   "slug": "xp-fluya",
+   "tipo": "foto",
+   "media": [
+    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-16-xp-fluya/s1.jpg"
+   ],
+   "caption": "Que todo fluya y que nada se tilde 🙏💻\n\nEl deseo de toda la semana. Y si tu compu igual se tilda, mandame \"PC\" por mensaje y lo resolvemos.\n\n#frasesdeldia #informatica #windowsxp #Paraná #EntreRíos #BCInformática",
    "estado": "pendiente"
   },
   {
@@ -75,15 +71,12 @@
   {
    "fecha": "2026-11-19",
    "hora": "12:00",
-   "slug": "si-estas-viendo-esto",
-   "tipo": "carrusel",
+   "slug": "copia-archivos",
+   "tipo": "foto",
    "media": [
-    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-19-si-estas-viendo-esto/s1.jpg",
-    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-19-si-estas-viendo-esto/s2.jpg",
-    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-19-si-estas-viendo-esto/s3.jpg",
-    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-19-si-estas-viendo-esto/s4.jpg"
+    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-19-copia-archivos/s1.jpg"
    ],
-   "caption": "Tuni tiene un mensaje para vos ☁️🐾\n\nVos merecés vacaciones. Tu compu, un mantenimiento. Pasale este post a quien prende la compu y se va a hacer un mate hasta que arranque 🧉\n\nMandame \"PC\" por mensaje y la dejamos como nueva.\n\n#mantenimientopc #serviciotecnico #humor #Paraná #EntreRíos #BCInformática",
+   "caption": "Hacé una copia de tus archivos. Hacé una copia de tus archivos. Hacé una copia de tus archivos 💾🐾\n\n¿Cuándo fue la última vez que hiciste un backup? Si no te acordás, mandame \"PC\" por mensaje y lo dejamos automático.\n\n#backup #informatica #serviciotecnico #Paraná #EntreRíos #BCInformática",
    "estado": "pendiente"
   },
   {
@@ -100,34 +93,34 @@
   {
    "fecha": "2026-11-21",
    "hora": "12:00",
-   "slug": "hacker-claves",
+   "slug": "sentido-comun",
    "tipo": "foto",
    "media": [
-    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-21-hacker-claves/s1.jpg"
+    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-21-sentido-comun/s1.jpg"
    ],
-   "caption": "Tuni, atendiendo al hacker como corresponde 📞🐾\n\nSi vos tampoco te acordás tus claves, no estás solo. Guardá este post y usá un gestor de contraseñas 🔐\n\n#ciberseguridad #contraseñas #memes #Paraná #EntreRíos #BCInformática",
+   "caption": "—La compu no prende.\n—Estaba desenchufada. 🔌🌸\n\nTuni lo vio todo. Igual, si ya la enchufaste y sigue sin prender, mandame \"PC\" por mensaje 😉\n\n#serviciotecnico #humor #memes #Paraná #EntreRíos #BCInformática",
    "estado": "pendiente"
   },
   {
    "fecha": "2026-11-23",
    "hora": "12:00",
-   "slug": "cosito",
+   "slug": "podemos-automatizarlo",
    "tipo": "foto",
    "media": [
-    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-23-cosito/s1.jpg"
+    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-23-podemos-automatizarlo/s1.jpg"
    ],
-   "caption": "Yo descifrando qué significa \"cuando toco acá me sale un cosito\" 🧐🐾\n\nTranqui, entiendo el idioma \"cosito\" a la perfección. Mandame \"PC\" por mensaje y contame qué te sale.\n\n#soportetecnico #memes #humor #Paraná #EntreRíos #BCInformática",
+   "caption": "Sé un \"podemos automatizarlo\" en un mundo lleno de \"siempre lo hicimos a mano\" ✨\n\nTus tareas de todos los días también se pueden automatizar. Escribime AUTO y te cuento cómo.\n\n#automatizacion #emprendedores #productividad #Paraná #EntreRíos #BCInformática",
    "estado": "pendiente"
   },
   {
    "fecha": "2026-11-24",
    "hora": "12:00",
-   "slug": "sentido-comun",
+   "slug": "memoria-contrasenas",
    "tipo": "foto",
    "media": [
-    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-24-sentido-comun/s1.jpg"
+    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-24-memoria-contrasenas/s1.jpg"
    ],
-   "caption": "—La compu no prende.\n—Estaba desenchufada. 🔌🌸\n\nTuni lo vio todo. Igual, si ya la enchufaste y sigue sin prender, mandame \"PC\" por mensaje 😉\n\n#serviciotecnico #humor #memes #Paraná #EntreRíos #BCInformática",
+   "caption": "Para todo tenés memoria… menos para tus contraseñas 🔑😎\n\nGuardalo y mandáselo a quien siempre pregunta \"¿cuál era la clave?\"\n\n#contraseñas #ciberseguridad #memes #Paraná #EntreRíos #BCInformática",
    "estado": "pendiente"
   },
   {
@@ -144,90 +137,10 @@
   {
    "fecha": "2026-11-26",
    "hora": "12:00",
-   "slug": "memes-ia",
-   "tipo": "carrusel",
-   "media": [
-    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-26-memes-ia/s1.jpg",
-    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-26-memes-ia/s2.jpg",
-    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-26-memes-ia/s3.jpg",
-    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-26-memes-ia/s4.jpg"
-   ],
-   "caption": "La IA y yo: una relación complicada 🤖🐾\n\n¿Con cuál te sentiste identificado? Contame en los comentarios.\n\nSi querés aprender a usar la IA de verdad, comentá CLASE y te paso info.\n\n#inteligenciaartificial #memes #clasesdeia #Paraná #EntreRíos #BCInformática",
-   "estado": "pendiente"
-  },
-  {
-   "fecha": "2026-11-27",
-   "hora": "12:00",
-   "slug": "memoria-contrasenas",
-   "tipo": "foto",
-   "media": [
-    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-27-memoria-contrasenas/s1.jpg"
-   ],
-   "caption": "Para todo tenés memoria… menos para tus contraseñas 🔑😎\n\nGuardalo y mandáselo a quien siempre pregunta \"¿cuál era la clave?\"\n\n#contraseñas #ciberseguridad #memes #Paraná #EntreRíos #BCInformática",
-   "estado": "pendiente"
-  },
-  {
-   "fecha": "2026-11-28",
-   "hora": "12:00",
-   "slug": "tres-neuronas",
-   "tipo": "foto",
-   "media": [
-    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-28-tres-neuronas/s1.jpg"
-   ],
-   "caption": "Mis 3 neuronas y yo explicándole a la IA qué quise decir con \"más lindo\" 🧠🤖\n\nPedirle bien a la IA también se aprende. Comentá CLASE y te cuento cómo son mis clases.\n\n#inteligenciaartificial #memes #clasesdeia #Paraná #EntreRíos #BCInformática",
-   "estado": "pendiente"
-  },
-  {
-   "fecha": "2026-11-30",
-   "hora": "12:00",
-   "slug": "copia-archivos",
-   "tipo": "foto",
-   "media": [
-    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-30-copia-archivos/s1.jpg"
-   ],
-   "caption": "Hacé una copia de tus archivos. Hacé una copia de tus archivos. Hacé una copia de tus archivos 💾🐾\n\n¿Cuándo fue la última vez que hiciste un backup? Si no te acordás, mandame \"PC\" por mensaje y lo dejamos automático.\n\n#backup #informatica #serviciotecnico #Paraná #EntreRíos #BCInformática",
-   "estado": "pendiente"
-  },
-  {
-   "fecha": "2026-12-01",
-   "hora": "12:00",
-   "slug": "facts",
-   "tipo": "foto",
-   "media": [
-    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-01-facts/s1.jpg"
-   ],
-   "caption": "Facts 📕\n\nEl problema siempre está entre la compu y la silla 🪑💻 (con cariño, eh).\n\nSi igual querés que la revise, mandame \"PC\" por mensaje 😉\n\n#memes #soportetecnico #humor #Paraná #EntreRíos #BCInformática",
-   "estado": "pendiente"
-  },
-  {
-   "fecha": "2026-12-02",
-   "hora": "12:00",
-   "slug": "agentes-rezando",
-   "tipo": "foto",
-   "media": [
-    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-02-agentes-rezando/s1.jpg"
-   ],
-   "caption": "Mis agentes de IA rezando para que no les diga \"se me ocurrió otra idea\" 🙏🤖\n\nArmo agentes de IA a medida para tu negocio o profesión. Escribime AUTO y te cuento qué pueden hacer por vos.\n\n#agentesdeia #automatizacion #memes #Paraná #EntreRíos #BCInformática",
-   "estado": "pendiente"
-  },
-  {
-   "fecha": "2026-12-03",
-   "hora": "12:00",
-   "slug": "clientes",
-   "tipo": "foto",
-   "media": [
-    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-03-clientes/s1.jpg"
-   ],
-   "caption": "Lo que ven mis clientes cuando les explico por qué este sistema los va a ayudar 📌🧵\n\nPrometo que en persona se entiende mejor 😅 Sistemas a tu medida y a tu alcance: escribime INFO y te lo explico sin hilos rojos.\n\n#sistemasamedida #emprendedores #memes #Paraná #EntreRíos #BCInformática",
-   "estado": "pendiente"
-  },
-  {
-   "fecha": "2026-12-04",
-   "hora": "12:00",
    "slug": "ia-8k",
    "tipo": "foto",
    "media": [
-    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-04-ia-8k/s1.jpg"
+    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-26-ia-8k/s1.jpg"
    ],
    "caption": "La IA después de que le pidas una película en 8K, 10 automatizaciones y que te explique por qué la vida a veces es así 🫠🐾\n\n¿Querés aprender a pedirle bien? Comentá CLASE.\n\n#inteligenciaartificial #memes #clasesdeia #Paraná #EntreRíos #BCInformática",
    "estado": "pendiente"
@@ -248,8 +161,8 @@
   },
   {
    "fecha": "2026-11-14",
-   "slug": "repost-todo-tranqui",
-   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-14-repost-todo-tranqui/historia.jpg",
+   "slug": "hacker-claves",
+   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-14-hacker-claves/historia.jpg",
    "estado": "pendiente"
   },
   {
@@ -266,8 +179,8 @@
   },
   {
    "fecha": "2026-11-18",
-   "slug": "repost-asistente-cena",
-   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-18-repost-asistente-cena/historia.jpg",
+   "slug": "cosito",
+   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-18-cosito/historia.jpg",
    "estado": "pendiente"
   },
   {
@@ -278,38 +191,38 @@
   },
   {
    "fecha": "2026-11-20",
-   "slug": "frase-word",
-   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-20-frase-word/historia.jpg",
+   "slug": "tres-neuronas",
+   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-20-tres-neuronas/historia.jpg",
    "estado": "pendiente"
   },
   {
    "fecha": "2026-11-21",
-   "slug": "repost-hacker-claves",
-   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-21-repost-hacker-claves/historia.jpg",
+   "slug": "facts",
+   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-21-facts/historia.jpg",
    "estado": "pendiente"
   },
   {
    "fecha": "2026-11-23",
-   "slug": "frase-procrastinando",
-   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-23-frase-procrastinando/historia.jpg",
+   "slug": "frase-word",
+   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-23-frase-word/historia.jpg",
    "estado": "pendiente"
   },
   {
    "fecha": "2026-11-24",
-   "slug": "frase-xp-fluya",
-   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-24-frase-xp-fluya/historia.jpg",
+   "slug": "agentes-rezando",
+   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-24-agentes-rezando/historia.jpg",
    "estado": "pendiente"
   },
   {
    "fecha": "2026-11-25",
-   "slug": "repost-tu-compu-anda-bien",
-   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-25-repost-tu-compu-anda-bien/historia.jpg",
+   "slug": "clientes",
+   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-25-clientes/historia.jpg",
    "estado": "pendiente"
   },
   {
    "fecha": "2026-11-26",
-   "slug": "frase-podemos-automatizarlo",
-   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-26-frase-podemos-automatizarlo/historia.jpg",
+   "slug": "frase-procrastinando",
+   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-26-frase-procrastinando/historia.jpg",
    "estado": "pendiente"
   },
   {
@@ -320,26 +233,14 @@
   },
   {
    "fecha": "2026-11-28",
-   "slug": "repost-tres-neuronas",
-   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-28-repost-tres-neuronas/historia.jpg",
+   "slug": "repost-asistente-cena",
+   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-28-repost-asistente-cena/historia.jpg",
    "estado": "pendiente"
   },
   {
    "fecha": "2026-11-30",
-   "slug": "repost-copia-archivos",
-   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-30-repost-copia-archivos/historia.jpg",
-   "estado": "pendiente"
-  },
-  {
-   "fecha": "2026-12-02",
-   "slug": "repost-agentes-rezando",
-   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-12-02-repost-agentes-rezando/historia.jpg",
-   "estado": "pendiente"
-  },
-  {
-   "fecha": "2026-12-04",
-   "slug": "repost-ia-8k",
-   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-12-04-repost-ia-8k/historia.jpg",
+   "slug": "repost-tu-compu-anda-bien",
+   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-30-repost-tu-compu-anda-bien/historia.jpg",
    "estado": "pendiente"
   }
  ]
