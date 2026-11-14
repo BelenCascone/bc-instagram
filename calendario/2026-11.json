@@ -80,12 +80,12 @@
   {
    "fecha": "2026-11-19",
    "hora": "12:00",
-   "slug": "copia-archivos",
+   "slug": "cartel-servicios",
    "tipo": "foto",
    "media": [
-    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-19-copia-archivos/s1.jpg"
+    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-19-cartel-servicios/s1.jpg"
    ],
-   "caption": "Hacé una copia de tus archivos. Hacé una copia de tus archivos. Hacé una copia de tus archivos 💾🐾\n\n¿Cuándo fue la última vez que hiciste un backup? Si no te acordás, mandame \"PC\" por mensaje y lo dejamos automático.\n\n#backup #informatica #serviciotecnico #Paraná #EntreRíos #BCInformática",
+   "caption": "¿Cuál arrancás vos? ✂️👀\n\nArreglo de PC, asesoramiento, sistemas a medida, presencia digital, clases y agentes de IA.\n\n💬 Escribime \"PC\" por mensaje y vemos qué necesitás.\n\n#BCInformática #serviciotecnico #emprendedores #Paraná #EntreRíos",
    "estado": "pendiente"
   },
   {
@@ -194,6 +194,18 @@
    "caption": "Que todo fluya y que nada se tilde 🙏💻\n\nEl deseo de toda la semana. Y si tu compu igual se tilda, mandame \"PC\" por mensaje y lo resolvemos.\n\n#frasesdeldia #informatica #windowsxp #Paraná #EntreRíos #BCInformática",
    "estado": "sin_programar",
    "nota": "Salió del 16/11 (14/11, pedido de Belén) para darle lugar al carrusel de servicios."
+  },
+  {
+   "fecha": null,
+   "hora": "12:00",
+   "slug": "copia-archivos",
+   "tipo": "foto",
+   "media": [
+    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-19-copia-archivos/s1.jpg"
+   ],
+   "caption": "Hacé una copia de tus archivos. Hacé una copia de tus archivos. Hacé una copia de tus archivos 💾🐾\n\n¿Cuándo fue la última vez que hiciste un backup? Si no te acordás, mandame \"PC\" por mensaje y lo dejamos automático.\n\n#backup #informatica #serviciotecnico #Paraná #EntreRíos #BCInformática",
+   "estado": "sin_programar",
+   "nota": "Salió del 19/11 (14/11, pedido de Belén: menos memes en el feed, más para historias)."
   }
  ],
  "historias": [
