@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:InterD;src:url(file:///usr/share/fonts/opentype/inter/InterDisplay-Bold.otf);font-weight:700}
+@font-face{font-family:InterD;src:url(file:///usr/share/fonts/opentype/inter/InterDisplay-Black.otf);font-weight:900}
+@font-face{font-family:InterD;src:url(file:///usr/share/fonts/opentype/inter/InterDisplay-Medium.otf);font-weight:500}
+html,body{margin:0;background:#121412;overflow:hidden}
+canvas{display:block}
+</style></head><body><canvas id="c" width="1080" height="1920"></canvas>
+<script>
+const W=1080,H=1920,DUR=15;
+const CREMA='#FBF8E6',GRAF='#121412',LIMA='#C6FF00',SALVIA='#8F9E8B';
+const cv=document.getElementById('c'),ctx=cv.getContext('2d');
+const logo=new Image();logo.src='logo.png';
+const cl=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));
+const lerp=(a,b,p)=>a+(b-a)*p;
+const eo=x=>{x=cl(x);return 1-Math.pow(1-x,3)};
+const ei=x=>{x=cl(x);return x*x*x};
+const eio=x=>{x=cl(x);return x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2};
+// closed-form underdamped spring, 0 -> 1
+function sp(tau,z=0.5,w=16){if(tau<=0)return 0;const wd=w*Math.sqrt(1-z*z);return 1-Math.exp(-z*w*tau)*(Math.cos(wd*tau)+z*w/wd*Math.sin(wd*tau))}
+const F=(wt,s)=>`${wt} ${s}px InterD`;
+function lay(text,size,wt=700){ctx.font=F(wt,100);let out=[],x=0;for(const ch of text){const w=ctx.measureText(ch).width*size/100;out.push({ch,x,w});x+=w}out.total=x;return out}
+function glyph(ch,x,y,w,size,color,alpha=1,rot=0,wt=700){if(alpha<=0.003)return;ctx.save();ctx.globalAlpha=alpha;ctx.translate(x+w/2,y);ctx.rotate(rot);ctx.font=F(wt,size);ctx.fillStyle=color;ctx.textBaseline='alphabetic';ctx.textAlign='center';ctx.fillText(ch,0,0);ctx.restore()}
+function text(s,x,y,size,color,alpha=1,wt=700,align='center'){if(alpha<=0.003)return;ctx.save();ctx.globalAlpha=alpha;ctx.font=F(wt,size);ctx.fillStyle=color;ctx.textAlign=align;ctx.textBaseline='alphabetic';ctx.fillText(s,x,y);ctx.restore()}
+function circ(x,y,r,color,alpha=1){if(r<=0||alpha<=0)return;ctx.save();ctx.globalAlpha=alpha;ctx.fillStyle=color;ctx.beginPath();ctx.arc(x,y,r,0,7);ctx.fill();ctx.restore()}
+function rrect(x,y,w,h,r){ctx.beginPath();ctx.roundRect(x,y,w,h,r)}
+const tittle=(g,base,size)=>({x:g.x+g.w/2,y:base-0.705*size,r:0.088*size});
+function arc(a,b,e,h){return{x:lerp(a.x,b.x,e),y:lerp(a.y,b.y,e)-h*Math.sin(Math.PI*e)}}
+
+// ---------- fixed layout ----------
+const TG={x:540,y:720,w:230,h:124}, KR={x:TG.x+53,y:TG.y}, KL={x:TG.x-53,y:TG.y}, KRAD=44;
+const L1='Tu negocio', L2a='sin ', L2b='sıstema', LS=120, B1=940, B2=1080, HS=215, HB=1010;
+let l1,l2,hero,l2x,l1x,herox,end2,END_T,HT;
+function setup(){
+  l1=lay(L1,LS);l1x=(W-l1.total)/2;
+  const full=lay(L2a+L2b,LS);l2=full;l2x=(W-full.total)/2;
+  hero=lay(L2b,HS);herox=(W-hero.total)/2;
+  HT=tittle({x:herox+hero[1].x,w:hero[1].w},HB,HS);
+  end2=lay('seguımıento.',132);end2.x0=(W-end2.total)/2;
+  END_T=tittle({x:end2.x0+end2[4].x,w:end2[4].w},1090,132);
+}
+const G={x0:170,x1:910,y0:1260,y1:820};       // graph
+const C={x:540,y:960};                         // centre
+const gspr=tau=>sp(tau,0.28,2*Math.PI/Math.sqrt(1-0.28*0.28)); // first peak at 0.5 s (one beat)
+const gpos=tau=>({x:lerp(G.x0,G.x1,cl(tau/2)),y:lerp(G.y0,G.y1,gspr(tau))});
+
+function dot(t){ // the lima dot: position + radius for every t
+  if(t<1.0) return{...KR,r:KRAD};
+  if(t<1.3){const p=sp(t-1.0,0.55,26);return{x:lerp(KR.x,KL.x,p),y:KR.y,r:KRAD}}
+  if(t<2.0){const e=eio((t-1.3)/0.7);const p=arc(KL,HT,e,260);return{...p,r:lerp(KRAD,HT.r,e)}}
+  if(t<2.5) return{...HT,r:HT.r*(1+0.25*Math.exp(-(t-2)*14)*Math.cos((t-2)*40))};
+  if(t<3.0){const e=eio((t-2.5)/0.5);const p=arc(HT,{x:G.x0,y:G.y0},e,220);return{...p,r:lerp(HT.r,22,e)}}
+  if(t<5.5){const p=gpos(t-3);return{...p,r:22}}
+  if(t<6.0){const e=eio((t-5.5)/0.5);return{x:lerp(G.x1,C.x,e),y:lerp(G.y1,C.y,e),r:22}}
+  if(t<6.5){return{...C,r:lerp(22,1300,ei((t-6)/0.5)*0.6+eio((t-6)/0.5)*0.4)}}
+  if(t<8.0) return{...C,r:1300};
+  if(t<8.5) return{...C,r:lerp(1300,22,eo((t-8)/0.42))};
+  if(t<12.0){const b=(t*2)%1;return{...C,r:22*(1+0.22*Math.exp(-b*7))}}
+  if(t<12.5){const e=sp(t-12,0.62,15);return{x:lerp(C.x,END_T.x,e),y:lerp(C.y,END_T.y,e),r:lerp(22,END_T.r,cl(e))}}
+  if(t<14.2) return{...END_T};
+  const e=eio((t-14.2)/0.7);const p=arc(END_T,KR,e,-160);return{...p,r:lerp(END_T.r,KRAD,e)};
+}
+
+function seek(t){
+  t=((t%DUR)+DUR)%DUR;
+  ctx.globalAlpha=1;ctx.fillStyle=GRAF;ctx.fillRect(0,0,W,H);
+  const d=dot(t);
+
+  // ===== OPEN / RETURN : toggle + label =====
+  if(t<3.1||t>14.3){
+    const back=t>14.3;
+    // toggle track
+    let ta=back?eo((t-14.4)/0.35):1-eo((t-1.25)/0.3), ts=back?0.7+0.3*sp(t-14.4,0.6,18):1-0.25*ei((t-1.25)/0.3);
+    if(ta>0.003){ctx.save();ctx.globalAlpha=ta;ctx.translate(TG.x,TG.y);ctx.scale(ts,ts);
+      const on=t<1.0||back?1:1-cl((t-1.0)/0.2);
+      rrect(-TG.w/2,-TG.h/2,TG.w,TG.h,TG.h/2);ctx.fillStyle=`rgba(251,248,230,${0.10+0.12*on})`;ctx.fill();
+      ctx.lineWidth=5;ctx.strokeStyle=CREMA;ctx.stroke();ctx.restore()}
+    // line 1 + "sin "
+    const leave=[...l1.map(g=>({g,x0:l1x,b:B1})),...l2.slice(0,4).map(g=>({g,x0:l2x,b:B2}))];
+    leave.forEach((o,i)=>{let a=1,dy=0,rot=0;
+      if(back){const q=eo((t-14.4-i*0.014)/0.34);a=q;dy=-(1-q)*70}
+      else{const p=ei((t-1.02-i*0.018)/0.36);a=1-p;dy=p*230;rot=p*0.55*(i%2?1:-1)}
+      glyph(o.g.ch,o.x0+o.g.x,o.b+dy,o.g.w,LS,CREMA,a,rot)});
+    // "sistema"
+    const m=back?0:sp(t-1.15,0.6,13);
+    hero.forEach((h,i)=>{const lg=l2[4+i];const size=lerp(LS,HS,m);
+      const x=lerp(l2x+lg.x,herox+h.x,m), w=lerp(lg.w,h.w,m), b=lerp(B2,HB,m);
+      let a=1,dy=0,rot=0;
+      if(back){const q=eo((t-14.46-i*0.014)/0.34);a=q;dy=-(1-q)*70}
+      else if(t>2.5){const p=ei((t-2.5-i*0.03)/0.34);a=1-p;dy=p*320;rot=p*0.4*(i%2?1:-1)}
+      glyph(h.ch,x,b+dy,w,size,CREMA,a,rot);
+      if(i==1){const tt=tittle({x,w},b+dy,size);const ca=back?a*(1-cl((t-14.85)/0.05)*0):(t<1.9?1:1-cl((t-1.9)/0.1));
+        if(!(t>=2.0&&t<2.5)) circ(tt.x,tt.y,tt.r,CREMA,a*ca)}});
+  }
+
+  // ===== GRAPH =====
+  if(t>2.55&&t<5.95){
+    const ain=eo((t-2.6)/0.4), aout=1-eo((t-5.5)/0.35), a=aout;
+    ctx.save();ctx.globalAlpha=a;ctx.strokeStyle=CREMA;ctx.lineWidth=4;ctx.lineCap='round';
+    ctx.beginPath();ctx.moveTo(G.x0-40,G.y0+50);ctx.lineTo(G.x0-40+(G.x1-G.x0+80)*ain,G.y0+50);ctx.stroke();
+    ctx.beginPath();ctx.moveTo(G.x0-40,G.y0+50);ctx.lineTo(G.x0-40,G.y0+50-(G.y0-G.y1+330)*ain);ctx.stroke();
+    ctx.globalAlpha=a*0.5*ain;ctx.setLineDash([14,16]);ctx.beginPath();ctx.moveTo(G.x0-40,G.y1);ctx.lineTo(G.x1+40,G.y1);ctx.stroke();ctx.setLineDash([]);
+    ctx.restore();
+    text('con tu panel',G.x1+40,G.y1+70,36,SALVIA,a*ain,500,'right');
+    text('hoy',G.x0-10,G.y0+110,36,SALVIA,a*ain,500,'left');
+    const tau=cl(t-3,0,2.5);
+    if(tau>0){ctx.save();ctx.globalAlpha=a;ctx.strokeStyle=LIMA;ctx.lineWidth=10;ctx.lineJoin='round';ctx.lineCap='round';ctx.beginPath();
+      const n=Math.ceil(tau*90);for(let i=0;i<=n;i++){const p=gpos(tau*i/n);i?ctx.lineTo(p.x,p.y):ctx.moveTo(p.x,p.y)}ctx.stroke();ctx.restore()}
+    const cs=sp(t-4.5,0.5,20);
+    if(cs>0){ctx.save();ctx.translate(G.x1+30,G.y1-150);ctx.scale(0.6+0.4*cs,0.6+0.4*cs);
+      text('+40%',0,0,170,CREMA,a*cl(cs*2),900,'right');text('pedidos a tiempo',-4,62,44,SALVIA,a*cl(cs*2),500,'right');ctx.restore()}
+  }
+  // trail line while the dot shoots to the centre
+  if(t>=5.5&&t<6.2){ctx.save();ctx.globalAlpha=1-eo((t-5.9)/0.3);ctx.strokeStyle=LIMA;ctx.lineWidth=8;ctx.lineCap='round';ctx.beginPath();ctx.moveTo(G.x1,G.y1);ctx.lineTo(d.x,d.y);ctx.stroke();ctx.restore()}
+
+  // ===== KINETIC TYPE (rings) + HALFTONE =====
+  if(t>=8.45&&t<12.0){
+    const out=ei((t-10.0)/0.75);
+    const ring=(str,size,R0,rot,color,delay)=>{const g=lay(str,size,900);const R=g.total/(2*Math.PI);const RM=R0||1;
+      const k=sp(t-8.5-delay,0.6,12);const rad=R*RM*(k+out*3.4);const al=cl(k*1.5)*(1-out);
+      g.forEach(o=>{const ang=rot+(o.x+o.w/2)/R;ctx.save();ctx.globalAlpha=al;ctx.translate(C.x+Math.cos(ang)*rad,C.y+Math.sin(ang)*rad);ctx.rotate(ang+Math.PI/2);
+        ctx.font=F(900,size*(1-out*0.6));ctx.fillStyle=color;ctx.textAlign='center';ctx.textBaseline='alphabetic';ctx.fillText(o.ch,0,0);ctx.restore()})};
+    if(t<10.8){
+      ring('PEDIDOS · CLIENTES · STOCK · VENTAS · TURNOS · ',76,0,-Math.PI/2+(t-8.5)*0.9,CREMA,0);
+      ring('PEDIDOS · CLIENTES · STOCK · VENTAS · TURNOS · PEDIDOS · CLIENTES · STOCK · VENTAS · TURNOS · ',44,1.12,-(t-8.5)*0.6,SALVIA,0.12);
+    }
+    // halftone grid, sizes respond to distance from the dot
+    if(t>10.2){const Rh=1500*eo((t-10.25)/0.9);const grow=ei((t-11.2)/0.5)*46;const S=60;
+      ctx.fillStyle=CREMA;
+      for(let gy=-1;gy<=H/S+1;gy++)for(let gx=-1;gx<=W/S+1;gx++){
+        const x=gx*S+(gy%2?S/2:0),y=gy*S,dd=Math.hypot(x-C.x,y-C.y);if(dd>Rh||dd<70)continue;
+        const edge=cl((Rh-dd)/160);const r=(3+9*(0.5+0.5*Math.cos(dd/85-t*7)))*edge+grow;
+        ctx.beginPath();ctx.arc(x,y,r,0,7);ctx.fill()}
+      if(grow>40){ctx.globalAlpha=cl((grow-40)/6);ctx.fillRect(0,0,W,H);ctx.globalAlpha=1}
+      // flip: crema plane collapses to reveal grafito
+      const fl=eio((t-11.72)/0.28);
+      if(fl>0){ctx.fillStyle=GRAF;ctx.fillRect(0,0,W,H*0.5*fl);ctx.fillRect(0,H-H*0.5*fl,W,H*0.5*fl)}
+    }
+  }
+
+  // ===== END CARD =====
+  if(t>=11.95&&t<14.45){
+    const o=1-eo((t-14.0)/0.35), up=-eo((t-14.0)/0.35)*60;
+    const ls=sp(t-12.0,0.55,15);
+    if(logo.complete){const lw=440*(0.6+0.4*ls),lh=lw*logo.height/logo.width;ctx.save();ctx.globalAlpha=cl(ls*2)*o;ctx.drawImage(logo,W/2-lw/2,560-lh/2+up,lw,lh);ctx.restore()}
+    const a1=eo((t-12.15)/0.3);text('Tu panel de',W/2,930+(1-a1)*50+up,132,CREMA,a1*o);
+    end2.forEach((g,i)=>{const q=eo((t-12.25-i*0.015)/0.3);glyph(g.ch,end2.x0+g.x,1090+(1-q)*50+up,g.w,132,CREMA,q*o);
+      if(i==6){const tt=tittle({x:end2.x0+g.x,w:g.w},1090+(1-q)*50+up,132);circ(tt.x,tt.y,tt.r,CREMA,q*o)}});
+    const a3=eo((t-12.6)/0.3);text('A tu medida y a tu alcance.',W/2,1215+(1-a3)*40+up,54,LIMA,a3*o,500);
+    const a4=eo((t-12.9)/0.3);text('BC Informática  ·  @bc.informatica.pna',W/2,1700,36,SALVIA,a4*o,500);
+  }
+
+  // ===== THE DOT (and the shape scene that grows out of it) =====
+  if(t>14.2&&t<14.75){const pr=(t-14.2)/0.55;ctx.fillStyle=CREMA;for(let k=0;k<14;k++){const an=k/14*6.283;const rr=40+150*eo(pr);circ(d.x+Math.cos(an)*rr,d.y+Math.sin(an)*rr,7*(1-pr),CREMA,1-pr)}}
+  circ(d.x,d.y,d.r,LIMA);
+  if(t>=6.45&&t<8.3){
+    const s=sp(t-6.5,0.5,17), st=sp(t-7.0,0.55,15);
+    const w=lerp(330,780,st)*s,h=lerp(330,210,st)*s,r=lerp(64,105,st)*s;
+    const ang=Math.PI*eio((t-6.5)/1.0);
+    ctx.save();ctx.translate(C.x,C.y);ctx.rotate(ang);rrect(-w/2,-h/2,w,h,r);ctx.fillStyle=GRAF;ctx.fill();ctx.restore();
+    const ta=eo((t-7.3)/0.2)*(1-eo((t-7.97)/0.12));
+    text('A tu medida',C.x,C.y+30,92,LIMA,ta);
+  }
+
+  // ===== CURSOR =====
+  const S0={x:800,y:1420},S1={x:TG.x+70,y:TG.y+20},S2={x:1180,y:1560};let cx=null,cy,cs=1;
+  if(t<0.25){cx=S0.x;cy=S0.y}
+  else if(t<0.9){const e=eio((t-0.25)/0.65);cx=lerp(S0.x,S1.x,e);cy=lerp(S0.y,S1.y,e)}
+  else if(t<1.2){cx=S1.x;cy=S1.y;cs=(t>0.95&&t<1.08)?0.82:1}
+  else if(t<1.7){const e=ei((t-1.2)/0.5);cx=lerp(S1.x,S2.x,e);cy=lerp(S1.y,S2.y,e)}
+  else if(t>14.5){const e=eo((t-14.5)/0.45);cx=lerp(S2.x,S0.x,e);cy=lerp(S2.y,S0.y,e)}
+  if(cx!==null){ctx.save();ctx.translate(cx,cy);ctx.scale(cs*1.25,cs*1.25);ctx.beginPath();
+    [[0,0],[0,56],[14,43],[25,68],[35,63],[24,39],[43,39]].forEach((p,i)=>i?ctx.lineTo(p[0],p[1]):ctx.moveTo(p[0],p[1]));ctx.closePath();
+    ctx.fillStyle=CREMA;ctx.fill();ctx.lineWidth=4;ctx.lineJoin='round';ctx.strokeStyle=GRAF;ctx.stroke();ctx.restore()}
+}
+window.ready=Promise.all([document.fonts.load(F(700,100)),document.fonts.load(F(900,100)),document.fonts.load(F(500,100)),new Promise(r=>{logo.onload=r;logo.onerror=r})]).then(()=>{setup();seek(0);return true});
+window.seek=seek;
+</script></body></html>
