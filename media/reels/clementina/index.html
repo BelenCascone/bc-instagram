@@ -8,7 +8,7 @@
 html,body{margin:0;background:#e9e8e3;overflow:hidden}canvas{display:block}
 </style></head><body><canvas id="c" width="1080" height="1920"></canvas>
 <script>
-const W=1080,H=1920,DUR=48.5;
+const W=1080,H=1920,OFF=5.0,DUR=53.5;
 const PAPER='#ecebe6',GR='#2b2b2a',GR2='#55554f',BLUE='#4b5bd6',RED='#cf4a3c',YEL='#efd88a';
 const cv=document.getElementById('c'),ctx=cv.getContext('2d');
 let SUBS=[];
@@ -157,7 +157,29 @@ function sEnd(t){const T=42.08;
   hand('te damos una mano',540,1440,54,P(t,45.6,0.6),{align:'center',c:BLUE,wt:400});
   slip('@bc.informatica.pna',540,640,46.2,t,{size:36,rot:0.02});
 }
-const SC=[[0,6.25,sIntro],[6.25,13.2,sEniac],[13.2,18.55,sClem],[18.55,23.55,sTape],[23.55,29.5,sSong],[29.5,37.08,sNietas],[37.08,42.0,sMem],[42.0,DUR,sEnd]];
+function sHook(t){
+  hand('¿Sabés quién es',540,330,92,1,{align:'center',wt:400});
+  hand('Clementina?',540,500,168,1,{align:'center'});
+  const tw=htw('Clementina?',168);pencil([[540-tw/2+10,540],[540,550],[540+tw/2-10,536]],1,{c:BLUE,w:6,a:1.2});
+  // polaroid with a mystery silhouette
+  const k=Math.min(2,Math.floor(t*12));const drop=[[-30,0.03],[6,-0.07],[0,-0.055]][k];
+  ctx.save();ctx.translate(540,1040+drop[0]);ctx.rotate(drop[1]+J(1)*0.003);
+  ctx.shadowColor='rgba(0,0,0,.22)';ctx.shadowBlur=18;ctx.shadowOffsetY=8;ctx.fillStyle='#fbfaf6';ctx.fillRect(-300,-340,600,700);ctx.shadowColor='transparent';
+  ctx.fillStyle='#d9d6cc';ctx.fillRect(-260,-300,520,520);
+  ctx.save();ctx.beginPath();ctx.rect(-260,-300,520,520);ctx.clip();
+  ctx.translate(-540,-1040);
+  ctx.save();ctx.beginPath();ctx.arc(540,890,95,0,7);ctx.moveTo(360,1260);ctx.bezierCurveTo(370,1060,450,1010,540,1005);ctx.bezierCurveTo(630,1010,710,1060,720,1260);ctx.closePath();ctx.clip();
+  ctx.fillStyle='rgba(43,43,42,.35)';ctx.fillRect(300,780,480,500);hatch(300,780,480,500,1,{gap:7,c:GR});hatch(300,780,480,500,1,{gap:9,c:GR2,ang:-1});ctx.restore();
+  Cc(540,890,95,1,{w:3});pencil([[360,1260],[380,1110],[450,1020],[540,1005],[630,1020],[700,1110],[720,1260]],1,{w:3});
+  hand('?',540,1130,300,1,{align:'center',c:'#fbfaf6'});
+  ctx.restore();
+  ctx.fillStyle=YEL;ctx.globalAlpha=.75;ctx.save();ctx.rotate(0.12);ctx.fillRect(-90,-370,180,50);ctx.restore();ctx.globalAlpha=1;
+  if(t<3.9)hand('¿quién será?',0,320,48,1,{align:'center',wt:400,c:GR2});else hand('no es una persona',0,322,52,P(t,4.0,0.45),{align:'center',c:RED});
+  ctx.restore();
+  slip('PISTA #1',830,690,1.84,t,{size:40,bold:true,rot:0.06,c:RED});
+  if(t>3.28){pencil([[290,700],[790,1300]],P(t,3.3,0.25),{c:RED,w:9,a:2});pencil([[790,700],[290,1300]],P(t,3.6,0.25),{c:RED,w:9,a:2})}
+}
+const SC=[[0,6.25,sIntro],[6.25,13.2,sEniac],[13.2,18.55,sClem],[18.55,23.55,sTape],[23.55,29.5,sSong],[29.5,37.08,sNietas],[37.08,42.0,sMem],[42.0,99,sEnd]];
 
 // ---------- subtitle strip ----------
 function subs(t){const c=SUBS.find(s=>t>=s.s-0.05&&t<=s.e+0.45);if(!c)return;
@@ -174,7 +196,7 @@ function subs(t){const c=SUBS.find(s=>t>=s.s-0.05&&t<=s.e+0.45);if(!c)return;
 
 function seek(t){BF=Math.floor(t*12);SID=0;
   ctx.globalAlpha=1;ctx.drawImage(paper,(BF%3)-1,((BF>>1)%3)-1);
-  const s=SC.find(s=>t>=s[0]&&t<s[1])||SC[SC.length-1];s[2](t);
+  if(t<OFF)sHook(t);else{const u=t-OFF;const s=SC.find(s=>u>=s[0]&&u<s[1])||SC[SC.length-1];s[2](u)}
   subs(t);
 }
 window.ready=fetch('subs.json').then(r=>r.json()).then(j=>{SUBS=j;return Promise.all(['700 40px Hand','400 40px Hand','400 40px Type','700 40px Type'].map(f=>document.fonts.load(f)))}).then(()=>{seek(0);return true});
