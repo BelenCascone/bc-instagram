@@ -1,5 +1,5 @@
 {
-  "_info": "Calendario Instagram BC 12/11 al 24/12/2026 (todo en este archivo). La tarea diaria publica a las 11:55 ART lo que tenga fecha de hoy y estado 'pendiente'. Cuenta instagramPageId 17841476355267605 (NUNCA Litoral 17841426335527747). Domingos sin publicar. Ítems 'sin_programar' quedan de reserva.",
+  "_info": "Calendario Instagram BC 12/11/2026 al 07/01/2027 (todo en este archivo). La tarea diaria publica a las 11:55 ART lo que tenga fecha de hoy y estado 'pendiente'. Los ítems tipo 'reel' van con estado 'manual': los sube Belén desde la app (con audio) y la tarea no los toca. Cuenta instagramPageId 17841476355267605 (NUNCA Litoral 17841426335527747). Domingos sin publicar. Ítems 'sin_programar' quedan de reserva.",
   "feed": [
     {
       "fecha": "2026-11-12",
@@ -67,6 +67,18 @@
       ],
       "caption": "¿Tu compu todavía tiene Windows 10? 👀\n\nMicrosoft extendió las actualizaciones de seguridad un año más. Deslizá para ver qué significa y qué te conviene hacer 👉\n\n💬 Si no sabés qué Windows tenés o querés pasarte a Windows 11, escribime \"PC\" por mensaje.\n\n#Windows10 #Windows11 #serviciotecnico #BCInformática #Paraná #EntreRíos",
       "estado": "pendiente"
+    },
+    {
+      "fecha": "2026-11-20",
+      "hora": "12:00",
+      "slug": "reel-panel-de-seguimiento",
+      "tipo": "reel",
+      "media": [
+        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/reels/reel-panel-loop.mp4"
+      ],
+      "caption": "Tu negocio, sin el «sin» 😉\n\nPedidos, clientes, stock, ventas y turnos en un solo panel hecho para tu emprendimiento. A tu medida y a tu alcance.\n\nEscribinos por DM y te mostramos cómo quedaría el tuyo 📩\n\n#sistemasamedida #emprendedores #pymes #gestion #Paraná #EntreRíos #BCInformática",
+      "estado": "manual",
+      "nota": "Reel: lo sube Belén desde la app para ponerle audio en tendencia (120 BPM). La tarea diaria no lo publica."
     },
     {
       "fecha": "2026-11-21",
@@ -143,6 +155,18 @@
       "estado": "pendiente"
     },
     {
+      "fecha": "2026-12-04",
+      "hora": "12:00",
+      "slug": "reel-notificaciones",
+      "tipo": "reel",
+      "media": [
+        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/reels/reel-notificaciones.mp4"
+      ],
+      "caption": "Esto pasa cuando tu negocio aparece en Google 📲\n\nSi te buscan y no te encuentran, le escriben a otro. Te armamos la presencia digital: Google, Instagram y web.\n\nEscribinos por DM y lo vemos juntos 📩\n\n#presenciadigital #googlemaps #emprendedores #negocioslocales #Paraná #EntreRíos #BCInformática",
+      "estado": "manual",
+      "nota": "Reel: lo sube Belén desde la app para ponerle audio en tendencia (120 BPM). La tarea diaria no lo publica."
+    },
+    {
       "fecha": "2026-12-05",
       "hora": "12:00",
       "slug": "objetivo-ahorrar",
@@ -210,6 +234,18 @@
       "nota": "Salió del 19/11 (14/11, pedido de Belén: menos memes en el feed, más para historias)."
     },
     {
+      "fecha": "2026-12-18",
+      "hora": "12:00",
+      "slug": "reel-noticia-agentes",
+      "tipo": "reel",
+      "media": [
+        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/reels/reel-noticia-agentes.mp4"
+      ],
+      "caption": "NOTICIA 📢 Agentes de IA a medida para tu negocio.\n\nResponden mensajes, agendan turnos, arman presupuestos y te ordenan el día. Y además te enseñamos a usarlos.\n\n¿Qué tarea le darías al tuyo? Contanos en comentarios 👇\n\n#agentesdeIA #inteligenciaartificial #automatizacion #emprendedores #Paraná #EntreRíos #BCInformática",
+      "estado": "manual",
+      "nota": "Reel: lo sube Belén desde la app para ponerle audio en tendencia (120 BPM). La tarea diaria no lo publica."
+    },
+    {
       "fecha": "2026-12-19",
       "hora": "12:00",
       "slug": "podemos-automatizarlo",
@@ -240,6 +276,76 @@
         "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-24-chat-papa-noel/s1.jpg"
       ],
       "caption": "Hasta Papá Noel se modernizó 🎅🤖\n\nEste año los regalos los repartió su agente de IA. ¿Y vos? ¿Qué tarea de tu emprendimiento te gustaría que haga un agente por vos?\n\n💬 Escribime \"AUTO\" por mensaje y te cuento cómo.\n\nFeliz Navidad de parte de BC Informática 🎄\n\n#Navidad #agentesdeia #emprendedores #BCInformática #Paraná #EntreRíos",
+      "estado": "pendiente"
+    },
+    {
+      "fecha": "2026-12-26",
+      "hora": "12:00",
+      "slug": "nube-service",
+      "tipo": "foto",
+      "media": [
+        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-26-nube-service/s1.jpg"
+      ],
+      "caption": "Cuando las señales son claras… es hora de un service ☁️🔧\n\n¿Anda lenta, hace ruido o levanta temperatura? Arrancá el año con la compu al día: limpieza, mantenimiento y puesta a punto.\n\nEscribinos por DM y coordinamos 📩\n\n#servicetecnico #mantenimientopc #reparaciondepc #Paraná #EntreRíos #BCInformática",
+      "estado": "pendiente"
+    },
+    {
+      "fecha": "2026-12-28",
+      "hora": "12:00",
+      "slug": "elegi-un-numero",
+      "tipo": "carrusel",
+      "media": [
+        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-28-elegi-un-numero/s1.jpg",
+        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-28-elegi-un-numero/s2.jpg",
+        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-28-elegi-un-numero/s3.jpg",
+        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-28-elegi-un-numero/s4.jpg",
+        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-28-elegi-un-numero/s5.jpg"
+      ],
+      "caption": "Elegí un número del 1 al 4 y deslizá 👉\n\nTe toca una tarea para cerrar el año con la compu (y el negocio) en orden.\n\n¿Cuál te tocó? Contanos en comentarios 👇\n\n#tipsinformaticos #backup #contraseñas #automatizacion #Paraná #EntreRíos #BCInformática",
+      "estado": "pendiente"
+    },
+    {
+      "fecha": "2026-12-30",
+      "hora": "12:00",
+      "slug": "test-de-vista",
+      "tipo": "foto",
+      "media": [
+        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-30-test-de-vista/s1.jpg"
+      ],
+      "caption": "Test de vista 👀🍌\n\nSi la ves violeta, no es la vista: es tu negocio pidiendo un sistema a medida. Y no, no es carísimo ni solo para grandes empresas.\n\n¿De qué color la ves? 👇\n\n#informatica #sistemasamedida #emprendedores #Paraná #EntreRíos #BCInformática",
+      "estado": "pendiente"
+    },
+    {
+      "fecha": "2027-01-02",
+      "hora": "12:00",
+      "slug": "dino-sin-conexion",
+      "tipo": "foto",
+      "media": [
+        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2027-01-02-dino-sin-conexion/s1.jpg"
+      ],
+      "caption": "¿Tu negocio sigue sin conexión? 🦖\n\nLa gente te busca online antes de ir. Este año, que te encuentren: te armamos Google, Instagram y web.\n\nEscribinos por DM y arrancamos 📩\n\n#presenciadigital #negocioslocales #emprendedores #marketingdigital #Paraná #EntreRíos #BCInformática",
+      "estado": "pendiente"
+    },
+    {
+      "fecha": "2027-01-04",
+      "hora": "12:00",
+      "slug": "tateti",
+      "tipo": "foto",
+      "media": [
+        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2027-01-04-tateti/s1.jpg"
+      ],
+      "caption": "Lunes de juego 🎮 ¿Dónde va el próximo mouse?\n\nComentá la casilla y fijate si alguien lo vio antes que vos 👇\n\n#lunesdejuego #tateti #informatica #humor #Paraná #EntreRíos #BCInformática",
+      "estado": "pendiente"
+    },
+    {
+      "fecha": "2027-01-06",
+      "hora": "12:00",
+      "slug": "calculadora",
+      "tipo": "foto",
+      "media": [
+        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2027-01-06-calculadora/s1.jpg"
+      ],
+      "caption": "Según nuestros cálculos, necesitás… un sistema a medida 🧮\n\nSi seguís sumando pedidos y cobros a mano, hay una forma más simple. Lo armamos solo con lo que tu negocio usa.\n\nEscribinos por DM y te contamos 📩\n\n#informatica #sistemasamedida #emprendedores #Paraná #EntreRíos #BCInformática",
       "estado": "pendiente"
     },
     {
@@ -410,9 +516,39 @@
       "estado": "pendiente"
     },
     {
+      "fecha": "2026-12-17",
+      "slug": "hombre-actualizacion",
+      "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-12-17-hombre-actualizacion/historia.jpg",
+      "estado": "pendiente"
+    },
+    {
       "fecha": "2026-12-23",
       "slug": "arbol-tecnologico",
       "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-12-23-arbol-tecnologico/historia.jpg",
+      "estado": "pendiente"
+    },
+    {
+      "fecha": "2026-12-29",
+      "slug": "senora-contrasena",
+      "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-12-29-senora-contrasena/historia.jpg",
+      "estado": "pendiente"
+    },
+    {
+      "fecha": "2026-12-31",
+      "slug": "actualizando-2027",
+      "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-12-31-actualizando-2027/historia.jpg",
+      "estado": "pendiente"
+    },
+    {
+      "fecha": "2027-01-05",
+      "slug": "oficiales-sistema-a-medida",
+      "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2027-01-05-oficiales-sistema-a-medida/historia.jpg",
+      "estado": "pendiente"
+    },
+    {
+      "fecha": "2027-01-07",
+      "slug": "fresco-guardar",
+      "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2027-01-07-fresco-guardar/historia.jpg",
       "estado": "pendiente"
     },
     {
