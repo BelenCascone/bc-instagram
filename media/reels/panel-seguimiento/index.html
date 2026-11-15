@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Inter;src:url(file:///usr/share/fonts/opentype/inter/Inter-Regular.otf);font-weight:400}
+@font-face{font-family:Inter;src:url(file:///usr/share/fonts/opentype/inter/Inter-Medium.otf);font-weight:500}
+@font-face{font-family:Inter;src:url(file:///usr/share/fonts/opentype/inter/Inter-SemiBold.otf);font-weight:600}
+@font-face{font-family:Inter;src:url(file:///usr/share/fonts/opentype/inter/Inter-Bold.otf);font-weight:700}
+@font-face{font-family:InterD;src:url(file:///usr/share/fonts/opentype/inter/InterDisplay-Bold.otf);font-weight:700}
+@font-face{font-family:InterD;src:url(file:///usr/share/fonts/opentype/inter/InterDisplay-Black.otf);font-weight:900}
+:root{--crema:#FBF8E6;--crema2:#F6F1E0;--graf:#121412;--verde:#1B4332;--lima:#C6FF00;--salvia:#8F9E8B}
+*{box-sizing:border-box;margin:0;padding:0}
+html,body{width:1080px;height:1920px;overflow:hidden;background:#000;font-family:Inter}
+#stage{position:absolute;inset:0;overflow:hidden;perspective:1800px}
+.bg{position:absolute;inset:0}
+#bgDark{background:linear-gradient(170deg,#1f5a3f 0%,#1B4332 35%,#0e1a12 100%)}
+#bgLight{background:linear-gradient(180deg,#FBF8E6 0%,#eef5d6 60%,#F6F1E0 100%)}
+.glow{position:absolute;border-radius:50%;filter:blur(140px)}
+.layer{position:absolute;inset:0;will-change:transform,opacity}
+.abs{position:absolute}
+.word{position:absolute;left:0;right:0;text-align:center;font-family:InterD;font-weight:700;letter-spacing:-2px}
+.card{position:absolute;background:rgba(251,248,230,.96);border-radius:34px;box-shadow:0 30px 60px rgba(0,0,0,.28)}
+.bubble{position:absolute;display:flex;gap:22px;align-items:center;background:rgba(251,248,230,.95);border-radius:34px;padding:24px 34px 24px 24px;box-shadow:0 20px 40px rgba(0,0,0,.25);font-size:34px;color:#2b2e2b}
+.bubble .ic{width:78px;height:78px;border-radius:22px;background:var(--lima);flex:none;position:relative}
+.bubble .ic:before{content:"";position:absolute;left:15px;top:18px;width:48px;height:36px;border-radius:50%;background:var(--graf)}
+.bubble .ic:after{content:"";position:absolute;left:20px;top:46px;border:10px solid transparent;border-top:14px solid var(--graf);transform:rotate(25deg)}
+.bubble b{display:block;font-weight:600;font-size:28px;color:var(--graf);margin-bottom:4px}
+.xls{position:absolute;width:150px;height:170px;border-radius:22px;background:#1e7a45;box-shadow:0 20px 40px rgba(0,0,0,.3);color:#fff;font:700 40px InterD;display:flex;align-items:flex-end;justify-content:center;padding-bottom:22px}
+.xls:before{content:"";position:absolute;left:28px;top:26px;width:94px;height:62px;border-radius:8px;background:repeating-linear-gradient(90deg,rgba(255,255,255,.85) 0 28px,transparent 28px 33px),#1e7a45;-webkit-mask:repeating-linear-gradient(180deg,#000 0 16px,transparent 16px 23px)}
+.note{position:absolute;width:300px;height:380px;border-radius:18px;background:#fdf6d8;box-shadow:0 25px 50px rgba(0,0,0,.3);padding:50px 30px;background-image:repeating-linear-gradient(180deg,transparent 0 46px,#c9d4e0 46px 48px)}
+.note:before{content:"";position:absolute;left:60px;top:0;bottom:0;width:3px;background:#e7a0a0}
+.scrib{position:absolute;height:6px;border-radius:3px;background:#3a4a6a;opacity:.7}
+/* dashboard */
+.dash{position:absolute;width:960px;height:700px;border-radius:38px;background:var(--crema);box-shadow:0 50px 90px rgba(0,0,0,.35);overflow:hidden;display:flex}
+.side{width:200px;background:var(--graf);padding:36px 20px;flex:none}
+.side img{width:130px;margin:0 0 50px 14px;display:block}
+.side div{color:var(--crema);font:500 24px Inter;padding:12px 16px;border-radius:14px;margin-bottom:10px}
+.side div.on{background:var(--lima);color:var(--graf)}
+.main{flex:1;padding:34px 34px}
+.main h3{font:700 38px InterD;color:var(--graf)}
+.main p.s{font:400 22px Inter;color:var(--salvia);margin:6px 0 24px}
+.stats{display:flex;gap:18px}
+.stat{flex:1;background:var(--crema2);border:2px solid #e3dcc6;border-radius:22px;padding:20px 22px}
+.stat span{font:500 22px Inter;color:#5f665d}
+.stat strong{display:block;font:700 50px InterD;color:var(--graf);margin-top:6px}
+.row2{display:flex;gap:18px;margin-top:18px}
+.box{background:var(--crema2);border:2px solid #e3dcc6;border-radius:22px;padding:20px 22px}
+.box h4{font:600 24px Inter;color:var(--graf)}
+/* feature cards */
+.fc{position:absolute;left:90px;width:900px;background:var(--crema);border-radius:36px;box-shadow:0 40px 80px rgba(0,0,0,.35);padding:40px}
+.fc h4{font:600 30px Inter;color:var(--graf);margin-bottom:24px;display:flex;justify-content:space-between}
+.fc h4 small{font:500 24px Inter;color:var(--salvia)}
+.li{display:flex;align-items:center;gap:22px;padding:20px 0;border-top:2px solid #ebe4cd;font:500 30px Inter;color:#2b2e2b}
+.av{width:64px;height:64px;border-radius:50%;flex:none;display:flex;align-items:center;justify-content:center;font:700 28px InterD;color:var(--graf)}
+.li .nm{flex:1}
+.pill{font:600 24px Inter;padding:10px 22px;border-radius:30px}
+.p-pen{background:#f3e3a6;color:#6b5800}.p-pre{background:#dff2b0;color:#3d5a00}.p-ent{background:var(--verde);color:var(--crema)}
+.bar{height:26px;border-radius:13px;background:#ebe4cd;overflow:hidden;flex:1.3}
+.bar i{display:block;height:100%;border-radius:13px;background:var(--verde)}
+.toast{position:absolute;display:flex;align-items:center;gap:20px;background:var(--graf);color:var(--crema);font:600 32px Inter;padding:26px 36px 26px 26px;border-radius:30px;box-shadow:0 25px 50px rgba(0,0,0,.35)}
+.toast .ck{width:56px;height:56px;border-radius:50%;background:var(--lima);position:relative;flex:none}
+.toast .ck:after{content:"";position:absolute;left:18px;top:12px;width:14px;height:24px;border:solid var(--graf);border-width:0 6px 6px 0;transform:rotate(45deg)}
+.toast.warn .ck{background:#f4c84a}.toast.warn .ck:after{left:24px;top:10px;width:0;height:22px;border-width:0 0 0 7px;transform:none}
+.cursor{position:absolute;width:56px;height:76px}
+.btn{position:absolute;left:50%;transform:translateX(-50%);background:var(--lima);color:var(--graf);font:700 48px InterD;padding:34px 70px;border-radius:70px;white-space:nowrap}
+.phone{position:absolute;width:430px;height:880px;border-radius:64px;background:#0b0c0b;border:6px solid #353935;padding:18px;box-shadow:0 50px 90px rgba(0,0,0,.4)}
+.phone .scr{width:100%;height:100%;border-radius:48px;background:var(--crema);overflow:hidden;padding:80px 26px 26px}
+.mini{background:var(--crema2);border:2px solid #e3dcc6;border-radius:20px;padding:16px 18px;margin-bottom:14px}
+.mini span{font:500 18px Inter;color:#5f665d}.mini strong{display:block;font:700 40px InterD;color:var(--graf)}
+</style></head>
+<body><div id="stage">
+  <div class="bg" id="bgLight"></div>
+  <div class="bg" id="bgDark"></div>
+  <div class="glow" id="g1" style="width:900px;height:900px;background:#C6FF00"></div>
+  <div class="glow" id="g2" style="width:800px;height:800px;background:#C6FF00"></div>
+
+  <!-- S1 hook -->
+  <div class="layer" id="s1">
+    <div class="word" id="h1" style="top:690px;font-size:96px;color:var(--graf)">¿Tenés un</div>
+    <div class="word" id="h2" style="top:805px;font-size:116px;font-weight:900;color:var(--verde)">emprendimiento</div>
+    <div class="word" id="h3" style="top:960px;font-size:80px;color:var(--graf)">y llevás todo…</div>
+  </div>
+
+  <!-- S2 problem -->
+  <div class="layer" id="s2">
+    <div class="word" id="p1" style="top:240px;font-size:92px;color:var(--crema)">en un cuaderno,</div>
+    <div class="note" id="note" style="left:390px;top:520px">
+      <div class="scrib" style="left:80px;top:72px;width:150px"></div><div class="scrib" style="left:80px;top:120px;width:120px"></div>
+      <div class="scrib" style="left:80px;top:168px;width:170px"></div><div class="scrib" style="left:80px;top:216px;width:90px"></div>
+      <div class="scrib" style="left:80px;top:264px;width:140px"></div>
+    </div>
+    <div class="word" id="p2" style="top:240px;font-size:92px;color:var(--crema)">en planillas</div>
+    <div class="xls" id="x1" style="left:120px;top:560px">XLS</div><div class="xls" id="x2" style="left:800px;top:640px">XLS</div>
+    <div class="xls" id="x3" style="left:300px;top:1000px">XLS</div><div class="xls" id="x4" style="left:700px;top:1150px">XLS</div>
+    <div class="xls" id="x5" style="left:480px;top:760px">XLS</div>
+    <div class="word" id="p3" style="top:240px;font-size:92px;color:var(--crema)">y por WhatsApp?</div>
+    <div class="bubble" id="b1" style="left:80px;top:560px"><div class="ic"></div><div><b>Clienta</b>¿Me anotaste el pedido?</div></div>
+    <div class="bubble" id="b2" style="left:200px;top:800px"><div class="ic"></div><div><b>Cliente</b>¿Cuánto te debo al final?</div></div>
+    <div class="bubble" id="b3" style="left:110px;top:1040px"><div class="ic"></div><div><b>Proveedor</b>¿Te queda stock de harina?</div></div>
+    <div class="bubble" id="b4" style="left:240px;top:1280px"><div class="ic"></div><div><b>Clienta</b>¿Ya salió mi envío?</div></div>
+    <div class="word" id="p4" style="top:1560px;font-size:70px;color:var(--lima)">Así no se puede crecer.</div>
+  </div>
+
+  <!-- S3 reveal -->
+  <div class="layer" id="s3">
+    <img id="rlogo" class="abs" src="logo.png" style="width:420px;left:330px;top:250px">
+    <div class="word" id="r1" style="top:460px;font-size:96px;color:var(--crema)">Tu panel de</div>
+    <div class="word" id="r2" style="top:570px;font-size:110px;font-weight:900;color:var(--lima)">seguimiento</div>
+    <div class="dash" id="dash" style="left:60px;top:820px">
+      <div class="side"><img src="logo.png"><div class="on">Inicio</div><div>Pedidos</div><div>Clientes</div><div>Stock</div><div>Ventas</div></div>
+      <div class="main"><h3>Buen día</h3><p class="s">Así viene tu emprendimiento hoy</p>
+        <div class="stats"><div class="stat"><span>Pedidos hoy</span><strong id="n1">0</strong></div>
+          <div class="stat"><span>Clientes</span><strong id="n2">0</strong></div>
+          <div class="stat"><span>Por cobrar</span><strong id="n3">$0</strong></div></div>
+        <div class="row2"><div class="box" style="flex:1.7;height:330px"><h4>Ventas de la semana</h4>
+          <svg width="420" height="250" viewBox="0 0 420 250" style="margin-top:10px">
+            <path id="area" d="M10 200 L60 170 L110 180 L160 130 L210 145 L260 100 L310 110 L360 60 L410 40 L410 245 L10 245 Z" fill="#C6FF00" opacity=".45"/>
+            <path id="line" d="M10 200 L60 170 L110 180 L160 130 L210 145 L260 100 L310 110 L360 60 L410 40" fill="none" stroke="#1B4332" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+          </svg></div>
+          <div class="box" style="flex:1;height:330px"><h4>Entregas</h4>
+            <svg width="200" height="200" viewBox="0 0 200 200" style="margin:24px 0 0 6px"><circle cx="100" cy="100" r="72" stroke="#e3dcc6" stroke-width="26" fill="none"/>
+            <circle id="donut" cx="100" cy="100" r="72" stroke="#1B4332" stroke-width="26" fill="none" stroke-dasharray="452" stroke-dashoffset="452" transform="rotate(-90 100 100)" stroke-linecap="round"/>
+            <text id="pct" x="100" y="114" text-anchor="middle" font-family="InterD" font-weight="700" font-size="40" fill="#121412">0%</text></svg></div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- S4 features -->
+  <div class="layer" id="s4">
+    <div class="word" id="ft" style="top:250px;font-size:100px;color:var(--crema)"></div>
+    <div class="word" id="fs" style="top:375px;font-size:44px;font-family:Inter;font-weight:500;letter-spacing:0;color:rgba(251,248,230,.85)"></div>
+    <div class="fc" id="fA" style="top:560px"><h4>Pedidos <small>hoy</small></h4>
+      <div class="li"><div class="av" style="background:#dff2b0">M</div><div class="nm">Martina · 2 viandas</div><span class="pill" id="pA1">Pendiente</span></div>
+      <div class="li"><div class="av" style="background:#f3e3a6">J</div><div class="nm">Juan · Torta chica</div><span class="pill p-pre">Preparando</span></div>
+      <div class="li"><div class="av" style="background:#cfe0d6">L</div><div class="nm">Lucía · 6 empanadas</div><span class="pill p-ent">Entregado</span></div>
+      <div class="li"><div class="av" style="background:#e6dcf3">C</div><div class="nm">Carlos · Box desayuno</div><span class="pill p-pen">Pendiente</span></div>
+    </div>
+    <div class="fc" id="fB" style="top:560px"><h4>Clientes <small>342</small></h4>
+      <div class="li"><div class="av" style="background:#dff2b0">M</div><div class="nm">Martina R.<br><span style="font-size:24px;color:#8F9E8B">12 compras · última: ayer</span></div><span class="pill p-pre">Frecuente</span></div>
+      <div class="li"><div class="av" style="background:#f3e3a6">J</div><div class="nm">Juan P.<br><span style="font-size:24px;color:#8F9E8B">Debe $8.500</span></div><span class="pill p-pen">Por cobrar</span></div>
+      <div class="li"><div class="av" style="background:#cfe0d6">S</div><div class="nm">Sofía G.<br><span style="font-size:24px;color:#8F9E8B">Cumple el viernes</span></div><span class="pill p-ent">Saludar</span></div>
+    </div>
+    <div class="fc" id="fC" style="top:560px"><h4>Stock <small>12 productos</small></h4>
+      <div class="li"><div class="nm">Harina</div><div class="bar"><i id="bc1"></i></div></div>
+      <div class="li"><div class="nm">Cajas</div><div class="bar"><i id="bc2"></i></div></div>
+      <div class="li"><div class="nm">Queso</div><div class="bar"><i id="bc3" style="background:#e0a62e"></i></div></div>
+      <div class="li"><div class="nm">Etiquetas</div><div class="bar"><i id="bc4"></i></div></div>
+    </div>
+    <div class="fc" id="fD" style="top:560px"><h4>Ventas del mes <small>noviembre</small></h4>
+      <div style="font:700 96px InterD;color:var(--graf)" id="money">$0</div>
+      <div style="font:600 30px Inter;color:#3d5a00;margin:6px 0 20px">▲ <span id="pctu">0</span>% vs. octubre</div>
+      <svg width="820" height="300" viewBox="0 0 820 300">
+        <g id="bars"></g>
+      </svg>
+    </div>
+    <div class="toast" id="tA" style="left:250px;top:1180px"><div class="ck"></div>Pedido entregado</div>
+    <div class="toast" id="tB" style="left:200px;top:1160px"><div class="ck"></div>Recordatorio enviado</div>
+    <div class="toast warn" id="tC" style="left:160px;top:1120px"><div class="ck"></div>Quedan 2 kg de queso</div>
+    <div class="phone" id="ph" style="left:325px;top:640px"><div class="scr">
+      <div style="font:700 34px InterD;color:var(--graf);margin-bottom:18px">Buen día</div>
+      <div class="mini"><span>Pedidos hoy</span><strong>14</strong></div>
+      <div class="mini"><span>Por cobrar</span><strong>$32.400</strong></div>
+      <div class="mini"><span>Ventas del mes</span><strong>$1.284.500</strong></div>
+      <div class="mini" style="background:var(--graf);border-color:var(--graf)"><span style="color:var(--lima)">Próxima entrega</span><strong style="color:var(--crema);font-size:30px">Martina · 13:30</strong></div>
+    </div></div>
+    <svg class="cursor" id="cur" viewBox="0 0 56 76"><path d="M4 4 L4 60 L18 47 L29 72 L39 67 L28 43 L47 43 Z" fill="#121412" stroke="#FBF8E6" stroke-width="3" stroke-linejoin="round"/></svg>
+  </div>
+
+  <!-- S5 value -->
+  <div class="layer" id="s5">
+    <div class="word" id="v1" style="top:640px;font-size:110px;color:var(--graf)">¿Lo mejor?</div>
+    <div class="word" id="v2" style="top:600px;font-size:104px;font-weight:900;color:var(--verde)">Hecho a tu medida</div>
+    <div class="word" id="v3" style="top:730px;font-size:104px;font-weight:900;color:var(--graf)">y a tu alcance.</div>
+    <div class="word" id="v4" style="top:900px;font-size:46px;font-family:Inter;font-weight:500;letter-spacing:0;color:var(--verde)">Solo con lo que tu negocio necesita.<br>No hace falta ser una gran empresa.</div>
+  </div>
+
+  <!-- S6 CTA -->
+  <div class="layer" id="s6">
+    <img id="clogo" class="abs" src="logo.png" style="width:560px;left:260px;top:430px">
+    <div class="word" id="c1" style="top:780px;font-size:80px;color:var(--crema)">Contanos de tu</div>
+    <div class="word" id="c2" style="top:880px;font-size:80px;color:var(--lima)">emprendimiento</div>
+    <div class="word" id="c3" style="top:1000px;font-size:42px;font-family:Inter;font-weight:500;letter-spacing:0;color:rgba(251,248,230,.8)">y te mostramos cómo quedaría tu panel.</div>
+    <div class="btn" id="cb" style="top:1200px">Escribinos por DM</div>
+    <div class="word" id="c4" style="top:1700px;font-size:36px;font-family:Inter;font-weight:600;letter-spacing:0;color:var(--lima)">@bc.informatica.pna</div>
+  </div>
+</div>
+<script>
+const $=id=>document.getElementById(id);
+const cl=(x,a=0,b=1)=>Math.max(a,Math.min(b,x));
+const eo=x=>{x=cl(x);return 1-Math.pow(1-x,3)};
+const eio=x=>{x=cl(x);return x<.5?4*x*x*x:1-Math.pow(-2*x+2,3)/2};
+const eb=x=>{x=cl(x);const c1=1.70158,c3=c1+1;return 1+c3*Math.pow(x-1,3)+c1*Math.pow(x-1,2)};
+const P=(t,a,d)=>cl((t-a)/d);
+function st(el,o){el=typeof el=='string'?$(el):el;for(const k in o)el.style[k]=o[k]}
+// in/out helper: returns visibility 0..1 for window [a,b] with fade f
+function win(t,a,b,f=.3){return eo((t-a)/f)*(1-eo((t-(b-f))/f))}
+function show(id,t,a,b,{dy=60,s0=1,blur=12,f=.35}={}){
+  const pi=eo((t-a)/f), po=eo((t-(b-f))/f), v=pi*(1-po);
+  st(id,{opacity:v,transform:`translateY(${(1-pi)*dy - po*dy*.5}px) scale(${s0+(1-s0)*eb((t-a)/(f*1.2))})`,filter:`blur(${(1-v)*blur}px)`,display:v<=0.001?'none':''});
+  return v;
+}
+const fmt=n=>'$'+Math.round(n).toLocaleString('es-AR');
+// bars
+(function(){let g=$('bars'),h='';for(let i=0;i<12;i++){h+=`<rect id="br${i}" x="${i*68+6}" y="290" width="48" height="0" rx="10" fill="${i==11?'#C6FF00':'#1B4332'}"/>`}g.innerHTML=h})();
+const BH=[90,120,105,150,140,170,160,200,185,230,215,270];
+
+function render(t){
+  // backgrounds
+  const light = (t<3.2)||(t>=27.6&&t<31.6);
+  const lv = t<3.2? 1-eo((t-2.9)/.3) : (t<27.6?0: (t<31.6? eo((t-27.6)/.3)*(1-eo((t-31.3)/.3)) :0));
+  st('bgLight',{opacity:1});st('bgDark',{opacity:1-lv});st('g1',{});
+  st('g1',{left:(-250+80*Math.sin(t*.4))+'px',top:(-300+60*Math.cos(t*.3))+'px',opacity:.55});
+  st('g2',{left:(500+90*Math.cos(t*.35))+'px',top:(1250+70*Math.sin(t*.45))+'px',opacity:.35});
+
+  // S1 0-3.2
+  const s1=t<3.4; st('s1',{display:s1?'':'none'});
+  if(s1){show('h1',t,.1,3.2);show('h2',t,.45,3.2,{s0:.8});show('h3',t,1.2,3.2);}
+
+  // S2 3.2-9.6
+  const s2=t>=3.1&&t<9.8; st('s2',{display:s2?'':'none'});
+  if(s2){
+    show('p1',t,3.2,5.0);
+    const nv=show('note',t,3.3,5.0,{dy:200});
+    $('note').style.transform+=` rotate(${-8+4*Math.sin(t*2)}deg)`;
+    show('p2',t,5.0,6.6);
+    for(let i=1;i<=5;i++){const v=show('x'+i,t,5.05+i*.08,6.6,{dy:300,s0:.5});$('x'+i).style.transform+=` rotate(${(i%2?1:-1)*(10+6*Math.sin(t*3+i))}deg) translateY(${-40*(t-5)}px)`}
+    show('p3',t,6.6,9.6);
+    for(let i=1;i<=4;i++){const a=6.75+(i-1)*.35;show('b'+i,t,a,9.6,{dy:80,s0:.85});const sh=t>8.4? Math.sin(t*40+i)*6*cl((t-8.4)/.3):0;$('b'+i).style.transform+=` translateX(${sh}px)`}
+    show('p4',t,8.3,9.6,{s0:.9});
+  }
+
+  // S3 reveal 9.6-13.4
+  const s3=t>=9.5&&t<13.6; st('s3',{display:s3?'':'none'});
+  if(s3){
+    show('rlogo',t,9.6,10.9,{s0:.7});
+    show('r1',t,10.6,13.4);show('r2',t,10.8,13.4,{s0:.7});
+    const p=eo((t-10.9)/.9), out=eo((t-13.1)/.3);
+    st('dash',{opacity:p*(1-out),transform:`translateY(${(1-p)*700}px) rotateX(${(1-p)*35}deg) scale(${.85+.15*p})`});
+    const c=eio((t-11.5)/1.4);
+    $('n1').textContent=Math.round(14*c);$('n2').textContent=Math.round(342*c);$('n3').textContent=fmt(32400*c);
+    const L=600;$('line').style.strokeDasharray=L;$('line').style.strokeDashoffset=L*(1-c);$('area').style.opacity=.45*c;
+    $('donut').style.strokeDashoffset=452*(1-.86*c);$('pct').textContent=Math.round(86*c)+'%';
+  }
+
+  // S4 features 13.4-27.6 (5 x ~2.8s)
+  const s4=t>=13.3&&t<27.8; st('s4',{display:s4?'':'none'});
+  if(s4){
+    const F=[['Pedidos al día','Sabés qué entregar, a quién y cuándo.',13.4],
+             ['Tus clientes','Quién compra, quién debe y quién vuelve.',16.2],
+             ['Stock bajo control','Te avisa antes de que te quedes sin nada.',19.0],
+             ['Ventas y ganancias','Cuánto vendiste, sin hacer cuentas.',21.8],
+             ['Desde la compu o el celu','Tu negocio, siempre a mano.',24.6]];
+    let cur=F.filter(f=>t>=f[2]).pop()||F[0];
+    const a=cur[2], b=a+2.8 + (a==24.6?.2:0);
+    $('ft').textContent=cur[0];$('ft').style.fontSize=(cur[0].length>20?80:100)+'px';$('ft').style.top=(cur[0].length>20?265:250)+'px';$('fs').textContent=cur[1];
+    show('ft',t,a,b,{dy:50});show('fs',t,a+.12,b,{dy:30});
+    ['fA','fB','fC','fD'].forEach((id,i)=>{const s=13.4+i*2.8;show(id,t,s+.15,s+2.8,{dy:220,s0:.9})});
+    ['fA','fB','fC','fD'].forEach((id,i)=>{const s=13.4+i*2.8;const p=eo((t-s-.15)/.6);if(t>=s&&t<s+2.8)$(id).style.transform+=` rotateX(${(1-p)*20}deg)`});
+    // A: pill change + toast + cursor
+    const ch=t>14.9; $('pA1').className='pill '+(ch?'p-ent':'p-pen'); $('pA1').textContent=ch?'Entregado':'Pendiente';
+    show('tA',t,15.0,16.2,{dy:40,s0:.85});
+    // cursor in A
+    const cv=win(t,13.7,16.1,.3);
+    if(t<16.2){const p=eio((t-13.8)/1.0);const x=900+(800-900)*p, y=1500+(720-1500)*p;st('cur',{display:cv>0?'':'none',opacity:cv,left:x+'px',top:y+'px',transform:`scale(${(t>14.8&&t<14.95)?.8:1})`})}
+    // B toast
+    show('tB',t,17.6,19.0,{dy:40,s0:.85});
+    // C bars
+    const cp=eio((t-19.3)/1.0);[78,55,14,62].forEach((w,i)=>$('bc'+(i+1)).style.width=(w*cp)+'%');
+    show('tC',t,20.2,21.8,{dy:40,s0:.85});
+    if(t>=16.2){st('cur',{display:'none'})}
+    // D money + bars
+    const dp=eio((t-22.0)/1.3);$('money').textContent=fmt(1284500*dp);$('pctu').textContent=Math.round(18*dp);
+    BH.forEach((h,i)=>{const q=eo((t-22.0-i*.06)/.5);const r=$('br'+i);r.setAttribute('height',h*q);r.setAttribute('y',290-h*q)});
+    // E phone
+    const pv=show('ph',t,24.75,27.6,{dy:300,s0:.85});$('ph').style.transform+=` rotate(${(1-eo((t-24.75)/.7))*-10}deg)`;
+    if(t>=24.6){st('cur',{display:'none'})}
+  }
+
+  // S5 value 27.6-31.6 (light)
+  const s5=t>=27.5&&t<31.8; st('s5',{display:s5?'':'none'});
+  if(s5){show('v1',t,27.7,29.0,{s0:.8});show('v2',t,29.0,31.6,{s0:.8});show('v3',t,29.35,31.6,{s0:.8});show('v4',t,29.9,31.6);}
+
+  // S6 CTA 31.6-37
+  const s6=t>=31.5; st('s6',{display:s6?'':'none'});
+  if(s6){show('clogo',t,31.6,99,{s0:.7});show('c1',t,32.0,99);show('c2',t,32.2,99,{s0:.85});show('c3',t,32.6,99);
+    const bv=show('cb',t,33.0,99,{s0:.8});$('cb').style.transform=`translateX(-50%) translateY(${(1-eo((t-33)/.35))*60}px) scale(${1+.03*Math.sin(t*5)})`;
+    show('c4',t,33.3,99);}
+}
+window.render=render;
+</script></body></html>
