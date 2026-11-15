@@ -1,5 +1,5 @@
 {
-  "_info": "Calendario Instagram BC 12/11 al 19/12/2026 (todo en este archivo). La tarea diaria publica a las 11:55 ART lo que tenga fecha de hoy y estado 'pendiente'. Cuenta instagramPageId 17841476355267605 (NUNCA Litoral 17841426335527747). Domingos sin publicar. Ítems 'sin_programar' quedan de reserva.",
+  "_info": "Calendario Instagram BC 12/11 al 24/12/2026 (todo en este archivo). La tarea diaria publica a las 11:55 ART lo que tenga fecha de hoy y estado 'pendiente'. Cuenta instagramPageId 17841476355267605 (NUNCA Litoral 17841426335527747). Domingos sin publicar. Ítems 'sin_programar' quedan de reserva.",
   "feed": [
     {
       "fecha": "2026-11-12",
@@ -221,6 +221,28 @@
       "estado": "pendiente"
     },
     {
+      "fecha": "2026-12-22",
+      "hora": "12:00",
+      "slug": "cargando-navidad",
+      "tipo": "foto",
+      "media": [
+        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-22-cargando-navidad/s1.jpg"
+      ],
+      "caption": "Cargando Navidad… 🎄⏳\n\nQue tu compu llegue al brindis sin colgarse 🥂 Si anda lenta o hace ruidos raros, todavía estamos a tiempo de dejarla lista para las fiestas.\n\n💬 Escribime \"PC\" por mensaje y la revisamos.\n\n#Navidad #serviciotecnico #BCInformática #Paraná #EntreRíos",
+      "estado": "pendiente"
+    },
+    {
+      "fecha": "2026-12-24",
+      "hora": "12:00",
+      "slug": "chat-papa-noel",
+      "tipo": "foto",
+      "media": [
+        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-24-chat-papa-noel/s1.jpg"
+      ],
+      "caption": "Hasta Papá Noel se modernizó 🎅🤖\n\nEste año los regalos los repartió su agente de IA. ¿Y vos? ¿Qué tarea de tu emprendimiento te gustaría que haga un agente por vos?\n\n💬 Escribime \"AUTO\" por mensaje y te cuento cómo.\n\nFeliz Navidad de parte de BC Informática 🎄\n\n#Navidad #agentesdeia #emprendedores #BCInformática #Paraná #EntreRíos",
+      "estado": "pendiente"
+    },
+    {
       "fecha": null,
       "hora": "12:00",
       "slug": "memoria-contrasenas",
@@ -385,6 +407,12 @@
       "fecha": "2026-12-15",
       "slug": "repost-tu-compu-anda-bien",
       "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-30-repost-tu-compu-anda-bien/historia.jpg",
+      "estado": "pendiente"
+    },
+    {
+      "fecha": "2026-12-23",
+      "slug": "arbol-tecnologico",
+      "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-12-23-arbol-tecnologico/historia.jpg",
       "estado": "pendiente"
     },
     {
