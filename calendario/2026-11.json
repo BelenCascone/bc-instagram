@@ -116,6 +116,18 @@
       "estado": "pendiente"
     },
     {
+      "fecha": "2026-11-27",
+      "hora": "12:00",
+      "slug": "reel-clementina",
+      "tipo": "reel",
+      "media": [
+        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/reels/reel-clementina.mp4"
+      ],
+      "caption": "¿Sabés quién es Clementina? 🤔\n\nFue la primera computadora científica de la Argentina: arrancó en la UBA en mayo de 1961, medía 18 metros, no tenía teclado ni pantalla… y cantaba 🎶\n\nMandáselo a alguien que no lo sabía 👀\n\n#historiadelacomputacion #Clementina #informatica #tecnologia #Paraná #EntreRíos #BCInformática",
+      "estado": "manual",
+      "nota": "Reel con voz en off incluida: lo sube Belén desde la app. La tarea diaria no lo publica."
+    },
+    {
       "fecha": "2026-11-28",
       "hora": "12:00",
       "slug": "listo-solucionado",
