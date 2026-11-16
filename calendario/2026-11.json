@@ -177,12 +177,16 @@
   {
    "fecha": "2026-11-28",
    "hora": "12:00",
-   "slug": "listo-solucionado",
-   "tipo": "foto",
+   "slug": "clientes-the-office",
+   "tipo": "carrusel",
    "media": [
-    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-17-listo-solucionado/s1.jpg"
+    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-28-clientes-the-office/s1.jpg",
+    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-28-clientes-the-office/s2.jpg",
+    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-28-clientes-the-office/s3.jpg",
+    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-28-clientes-the-office/s4.jpg",
+    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-28-clientes-the-office/s5.jpg"
    ],
-   "caption": "Cuando el chat te dice \"listo, solucionado\" y… nada cambió 🙃🤖\n\nLa IA ayuda un montón, pero hay que saber pedirle. Si querés aprender a usarla bien, comentá CLASE y te cuento.\n\n#inteligenciaartificial #chatgpt #memes #Paraná #EntreRíos #BCInformática",
+   "caption": "Cosas que dicen los clientes y que hacen que el técnico envejezca 10 años en 5 minutos 😅\n\nEdición supervivencia, explicada con The Office 👉\n\n¿Cuál escuchaste (o dijiste 👀)? Contanos en los comentarios y etiquetá a ese amigo que nunca hace backup.\n\nTranqui: en BC Informática ya vimos de todo. Vos traé el problema, nosotros ponemos la solución 💚\n\n#humorinformatico #TheOffice #soportetecnico #BCInformática #Paraná #EntreRíos",
    "estado": "pendiente"
   },
   {
@@ -458,6 +462,17 @@
     "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-28-elegi-un-numero/s5.jpg"
    ],
    "caption": "Elegí un número del 1 al 4 y deslizá 👉\n\nTe toca una tarea para cerrar el año con la compu (y el negocio) en orden.\n\n¿Cuál te tocó? Contanos en comentarios 👇\n\n#tipsinformaticos #backup #contraseñas #automatizacion #Paraná #EntreRíos #BCInformática",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-12-29",
+   "hora": "12:00",
+   "slug": "listo-solucionado",
+   "tipo": "foto",
+   "media": [
+    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-17-listo-solucionado/s1.jpg"
+   ],
+   "caption": "Cuando el chat te dice \"listo, solucionado\" y… nada cambió 🙃🤖\n\nLa IA ayuda un montón, pero hay que saber pedirle. Si querés aprender a usarla bien, comentá CLASE y te cuento.\n\n#inteligenciaartificial #chatgpt #memes #Paraná #EntreRíos #BCInformática",
    "estado": "pendiente"
   },
   {
