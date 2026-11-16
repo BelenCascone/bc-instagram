@@ -95,12 +95,13 @@
   {
    "fecha": "2026-11-21",
    "hora": "12:00",
-   "slug": "cartel-servicios",
-   "tipo": "foto",
+   "slug": "contrasenas-tips",
+   "tipo": "carrusel",
    "media": [
-    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-19-cartel-servicios/s1.jpg"
+    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-21-contrasenas-tips/s1.jpg",
+    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-21-contrasenas-tips/s2.jpg"
    ],
-   "caption": "¿Cuál arrancás vos? ✂️👀\n\nArreglo de PC, asesoramiento, sistemas a medida, presencia digital, clases y agentes de IA.\n\n💬 Escribime \"PC\" por mensaje y vemos qué necesitás.\n\n#BCInformática #serviciotecnico #emprendedores #Paraná #EntreRíos",
+   "caption": "¿Tu contraseña te da vergüenza? 🙈\n\nDeslizá y fijate los 4 tips para que nadie la adivine: frase larga, una distinta por cuenta, un gestor de contraseñas y la verificación en dos pasos 👉\n\n📌 Guardalo y compartilo con quien todavía usa «123456».\n\n#contraseñas #seguridadinformatica #tips #BCInformática #Paraná #EntreRíos",
    "estado": "pendiente"
   },
   {
@@ -227,12 +228,13 @@
   {
    "fecha": "2026-12-09",
    "hora": "12:00",
-   "slug": "asistente-cena",
-   "tipo": "foto",
+   "slug": "pantalla-azul",
+   "tipo": "carrusel",
    "media": [
-    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-18-asistente-cena/s1.jpg"
+    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-09-pantalla-azul/s1.jpg",
+    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-09-pantalla-azul/s2.jpg"
    ],
-   "caption": "Vos disfrutá la cena. Tu asistente responde 🍝💬\n\nUn asistente automático contesta los turnos y las preguntas de siempre de tu negocio, aunque estés cenando, durmiendo o de vacaciones.\n\nEscribime AUTO y te cuento cómo funciona.\n\n#automatizacion #agentesdeia #emprendedores #Paraná #EntreRíos #BCInformática",
+   "caption": "Cuando aparece la pantalla azul 😱\n\nNo entres en pánico: deslizá y mirá qué hacer paso a paso 👉\n\nSi se repite, puede ser la memoria, el disco o un driver. Escribinos por DM y la revisamos 📩\n\n📌 Guardalo para cuando lo necesites.\n\n#pantallaazul #Windows #soportetecnico #BCInformática #Paraná #EntreRíos",
    "estado": "pendiente"
   },
   {
@@ -296,12 +298,13 @@
   {
    "fecha": "2026-12-19",
    "hora": "12:00",
-   "slug": "podemos-automatizarlo",
-   "tipo": "foto",
+   "slug": "actualizaciones",
+   "tipo": "carrusel",
    "media": [
-    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-23-podemos-automatizarlo/s1.jpg"
+    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-19-actualizaciones/s1.jpg",
+    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-19-actualizaciones/s2.jpg"
    ],
-   "caption": "Sé un \"podemos automatizarlo\" en un mundo lleno de \"siempre lo hicimos a mano\" ✨\n\nTus tareas de todos los días también se pueden automatizar. Escribime AUTO y te cuento cómo.\n\n#automatizacion #emprendedores #productividad #Paraná #EntreRíos #BCInformática",
+   "caption": "Cuando la compu te pide actualizar por quinta vez 😩\n\n¿Por qué no darle siempre a «más tarde»? Deslizá y enterate 👉\n\nTip: hacelas al final del día y, antes de una grande, hacé una copia de tus archivos.\n\n📌 Guardalo y compartilo.\n\n#actualizaciones #Windows #seguridadinformatica #BCInformática #Paraná #EntreRíos",
    "estado": "pendiente"
   },
   {
@@ -395,6 +398,39 @@
    ],
    "caption": "Según nuestros cálculos, necesitás… un sistema a medida 🧮\n\nSi seguís sumando pedidos y cobros a mano, hay una forma más simple. Lo armamos solo con lo que tu negocio usa.\n\nEscribinos por DM y te contamos 📩\n\n#informatica #sistemasamedida #emprendedores #Paraná #EntreRíos #BCInformática",
    "estado": "pendiente"
+  },
+  {
+   "fecha": null,
+   "hora": "12:00",
+   "slug": "cartel-servicios",
+   "tipo": "foto",
+   "media": [
+    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-19-cartel-servicios/s1.jpg"
+   ],
+   "caption": "¿Cuál arrancás vos? ✂️👀\n\nArreglo de PC, asesoramiento, sistemas a medida, presencia digital, clases y agentes de IA.\n\n💬 Escribime \"PC\" por mensaje y vemos qué necesitás.\n\n#BCInformática #serviciotecnico #emprendedores #Paraná #EntreRíos",
+   "estado": "sin_programar"
+  },
+  {
+   "fecha": null,
+   "hora": "12:00",
+   "slug": "asistente-cena",
+   "tipo": "foto",
+   "media": [
+    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-18-asistente-cena/s1.jpg"
+   ],
+   "caption": "Vos disfrutá la cena. Tu asistente responde 🍝💬\n\nUn asistente automático contesta los turnos y las preguntas de siempre de tu negocio, aunque estés cenando, durmiendo o de vacaciones.\n\nEscribime AUTO y te cuento cómo funciona.\n\n#automatizacion #agentesdeia #emprendedores #Paraná #EntreRíos #BCInformática",
+   "estado": "sin_programar"
+  },
+  {
+   "fecha": null,
+   "hora": "12:00",
+   "slug": "podemos-automatizarlo",
+   "tipo": "foto",
+   "media": [
+    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-23-podemos-automatizarlo/s1.jpg"
+   ],
+   "caption": "Sé un \"podemos automatizarlo\" en un mundo lleno de \"siempre lo hicimos a mano\" ✨\n\nTus tareas de todos los días también se pueden automatizar. Escribime AUTO y te cuento cómo.\n\n#automatizacion #emprendedores #productividad #Paraná #EntreRíos #BCInformática",
+   "estado": "sin_programar"
   },
   {
    "fecha": null,
@@ -499,14 +535,14 @@
   },
   {
    "fecha": "2026-11-17",
-   "slug": "buen-dia-meta",
-   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-17-buen-dia-meta/historia.jpg",
+   "slug": "memoria-contrasenas-historia",
+   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-17-memoria-contrasenas/historia.jpg",
    "estado": "pendiente"
   },
   {
    "fecha": "2026-11-19",
-   "slug": "consejo-reiniciando",
-   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-19-consejo-reiniciando/historia.jpg",
+   "slug": "frase-word",
+   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-19-frase-word/historia.jpg",
    "estado": "pendiente"
   },
   {
@@ -540,6 +576,12 @@
    "estado": "pendiente"
   },
   {
+   "fecha": "2026-12-01",
+   "slug": "chiste-mouse",
+   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-12-01-chiste-mouse/historia.jpg",
+   "estado": "pendiente"
+  },
+  {
    "fecha": "2026-12-02",
    "slug": "cosito-v2",
    "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-12-02-cosito-v2/historia.jpg",
@@ -558,6 +600,12 @@
    "estado": "pendiente"
   },
   {
+   "fecha": "2026-12-09",
+   "slug": "chiste-ventanas",
+   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-12-09-chiste-ventanas/historia.jpg",
+   "estado": "pendiente"
+  },
+  {
    "fecha": "2026-12-10",
    "slug": "frase-internet-explorer",
    "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-19-frase-internet-explorer/historia.jpg",
@@ -565,8 +613,26 @@
   },
   {
    "fecha": "2026-12-11",
-   "slug": "frase-word",
-   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-23-frase-word/historia.jpg",
+   "slug": "consejo-reiniciando",
+   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-19-consejo-reiniciando/historia.jpg",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-12-14",
+   "slug": "chiste-panaderia-1",
+   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-12-14-chiste-panaderia-1/historia.jpg",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-12-14",
+   "slug": "chiste-panaderia-2",
+   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-12-14-chiste-panaderia-2/historia.jpg",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-12-14",
+   "slug": "chiste-panaderia-3",
+   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-12-14-chiste-panaderia-3/historia.jpg",
    "estado": "pendiente"
   },
   {
@@ -613,6 +679,36 @@
   },
   {
    "fecha": null,
+   "slug": "agentes-rezando",
+   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-24-agentes-rezando/historia.jpg",
+   "estado": "sin_programar"
+  },
+  {
+   "fecha": null,
+   "slug": "buen-dia-meta",
+   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-17-buen-dia-meta/historia.jpg",
+   "estado": "sin_programar"
+  },
+  {
+   "fecha": null,
+   "slug": "clientes",
+   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-25-clientes/historia.jpg",
+   "estado": "sin_programar"
+  },
+  {
+   "fecha": null,
+   "slug": "cosito",
+   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-18-cosito/historia.jpg",
+   "estado": "sin_programar"
+  },
+  {
+   "fecha": null,
+   "slug": "facts",
+   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-21-facts/historia.jpg",
+   "estado": "sin_programar"
+  },
+  {
+   "fecha": null,
    "slug": "frase-reiniciando",
    "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-16-frase-reiniciando/historia.jpg",
    "estado": "sin_programar"
@@ -625,36 +721,6 @@
   },
   {
    "fecha": null,
-   "slug": "cosito",
-   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-18-cosito/historia.jpg",
-   "estado": "sin_programar"
-  },
-  {
-   "fecha": null,
-   "slug": "tres-neuronas",
-   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-20-tres-neuronas/historia.jpg",
-   "estado": "sin_programar"
-  },
-  {
-   "fecha": null,
-   "slug": "facts",
-   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-21-facts/historia.jpg",
-   "estado": "sin_programar"
-  },
-  {
-   "fecha": null,
-   "slug": "agentes-rezando",
-   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-24-agentes-rezando/historia.jpg",
-   "estado": "sin_programar"
-  },
-  {
-   "fecha": null,
-   "slug": "clientes",
-   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-25-clientes/historia.jpg",
-   "estado": "sin_programar"
-  },
-  {
-   "fecha": null,
    "slug": "por-fin-viernes-2",
    "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-27-por-fin-viernes-2/historia.jpg",
    "estado": "sin_programar"
@@ -663,6 +729,12 @@
    "fecha": null,
    "slug": "repost-yo-no-toque-nada",
    "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-28-repost-yo-no-toque-nada/historia.jpg",
+   "estado": "sin_programar"
+  },
+  {
+   "fecha": null,
+   "slug": "tres-neuronas",
+   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-20-tres-neuronas/historia.jpg",
    "estado": "sin_programar"
   }
  ]
