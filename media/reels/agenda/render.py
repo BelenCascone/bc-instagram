@@ -1,6 +1,6 @@
 import asyncio,subprocess,sys,os
 from playwright.async_api import async_playwright
-FPS=60;DUR=27;OUT='frames';os.makedirs(OUT,exist_ok=True)
+FPS=60;DUR=30.55;OUT='frames2';os.makedirs(OUT,exist_ok=True)
 async def main():
     srv=subprocess.Popen([sys.executable,'-m','http.server','8767'],stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL)
     await asyncio.sleep(1)
@@ -10,7 +10,7 @@ async def main():
         pg.on('pageerror',lambda e:print('ERR',e))
         await pg.goto('http://localhost:8767/film.html'); await pg.evaluate('init()')
         el=pg.locator('#c')
-        for i in range(FPS*DUR):
+        for i in range(int(FPS*DUR)):
             await pg.evaluate(f'seek({i/FPS})')
             await el.screenshot(path=f'{OUT}/{i:05d}.jpg',type='jpeg',quality=94)
         await b.close()

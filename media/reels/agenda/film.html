@@ -170,7 +170,7 @@ function buildCaches(){PAPER=off();paperBg(PAPER.getContext('2d'));
   c.shadowColor='rgba(18,20,18,.25)';c.shadowBlur=36;c.shadowOffsetY=18;c.fillStyle='#fffdf3';c.fillRect(0,0,sw,sh);c.shadowColor='transparent';
   agenda(c,0,0,sw,sh,{done:9,partial:1,paper:false,seedBase:5});
   c.save();c.globalAlpha=.8;c.fillStyle=LIMA;c.translate(sw/2,-6);c.rotate(0.04);c.fillRect(-80,-22,160,46);c.restore();c.restore();
-  plantShadow(c);}
+}
 
 // ---------- wordmark propio (el punto es un círculo, para poder crecer) ----------
 const WM_SIZE=172;let WM=null;
@@ -235,17 +235,17 @@ function bubbleP(c,x,y,maxW,text,mine,p,o={}){if(p<=0.001)return;const sz=o.sz||
 function chatScene(c,t){c.fillStyle=CREMA2;c.fillRect(0,0,PW,PH);
   c.save();c.globalAlpha=.06;c.strokeStyle=VERDE;c.lineWidth=3;for(let i=0;i<30;i++){c.beginPath();c.arc((i*197)%PW,(i*331)%PH,16,0,7);c.stroke()}c.restore();
   c.fillStyle=CREMA;c.fillRect(0,0,PW,230);statusBar(c,0,0,PW);
-  avatar(c,120,160,40,'Marta',0);font(c,32,700);c.fillStyle=GR;c.textBaseline='alphabetic';c.fillText('Marta',180,156);font(c,23,500);c.fillStyle=VERDE;c.fillText(t>11.6?'en línea':'escribiendo…',180,190);
+  avatar(c,120,160,40,'Marta',0);font(c,32,700);c.fillStyle=GR;c.textBaseline='alphabetic';c.fillText('Marta',180,156);font(c,23,500);c.fillStyle=VERDE;c.fillText(t>13.4?'en línea':'escribiendo…',180,190);
   c.strokeStyle=GR;c.lineWidth=5;c.lineCap='round';c.beginPath();c.moveTo(64,140);c.lineTo(48,160);c.lineTo(64,180);c.stroke();
   const Y=[280,430,700,810,1100];
   bubbleP(c,40,Y[0],PW*0.72,'Hola! ¿Tenés turno para mañana?',false,1,{time:'10:02'});
   // "escribiendo" de la IA
-  if(t>9.75&&t<10.05){const p=sp(t,9.75,18,0.6);c.save();c.translate(PW-40-60,Y[1]+40);c.scale(p,p);rr(c,-60,-34,120,68,34);c.fillStyle=VERDE;c.fill();
+  if(t>10.0&&t<10.3){const p=sp(t,10.0,18,0.6);c.save();c.translate(PW-40-60,Y[1]+40);c.scale(p,p);rr(c,-60,-34,120,68,34);c.fillStyle=VERDE;c.fill();
     for(let i=0;i<3;i++){c.beginPath();c.arc(-28+i*28,Math.sin(t*20+i)*5,8,0,7);c.fillStyle=CREMA;c.fill()}c.restore()}
-  bubbleP(c,PW-40,Y[1],PW*0.74,'¡Hola Marta! Mañana tengo libre a las 10:30 o a las 16:00. ¿Cuál te queda mejor?',true,sp(t,10.0,15,0.6),{ai:true});
-  bubbleP(c,40,Y[2],PW*0.72,'A las 16 porfa',false,sp(t,10.6,15,0.6),{time:'10:03'});
-  bubbleP(c,PW-40,Y[3],PW*0.74,'Listo ✓ Te agendé mañana 16:00. Te mando un recordatorio un rato antes.',true,sp(t,11.1,15,0.6),{ai:true});
-  bubbleP(c,40,Y[4],PW*0.72,'Genial, gracias!!',false,sp(t,11.6,15,0.6),{time:'10:03'});
+  bubbleP(c,PW-40,Y[1],PW*0.74,'¡Hola Marta! Mañana tengo libre a las 10:30 o a las 16:00. ¿Cuál te queda mejor?',true,sp(t,10.3,15,0.6),{ai:true});
+  bubbleP(c,40,Y[2],PW*0.72,'A las 16 porfa',false,sp(t,11.4,15,0.6),{time:'10:03'});
+  bubbleP(c,PW-40,Y[3],PW*0.74,'Listo ✓ Te agendé mañana 16:00. Te mando un recordatorio un rato antes.',true,sp(t,12.7,15,0.6),{ai:true});
+  bubbleP(c,40,Y[4],PW*0.72,'Genial, gracias!!',false,sp(t,13.4,15,0.6),{time:'10:03'});
 }
 function glassUI(c,t){ // gota de vidrio "IA" que se estira en la barra
   const pop=sp(t,8.45,14,0.55);if(pop<=0.001)return;const m=ease(t,8.95,9.4);
@@ -265,8 +265,9 @@ function glassUI(c,t){ // gota de vidrio "IA" que se estira en la barra
     c.beginPath();c.arc(tx+36+68*clamp(on,0,1.08),ty+36,30,0,7);c.fillStyle='#fff';c.shadowColor='rgba(0,0,0,.25)';c.shadowBlur=8;c.fill();c.shadowColor='transparent';c.restore()}
 }
 let CHAT_FROZEN=null;
+let FROZEN=false;
 function phoneContent(t){
-  if(t>=12.0&&CHAT_FROZEN){P.drawImage(CHAT_FROZEN,0,0);return}
+  if(FROZEN&&CHAT_FROZEN){P.drawImage(CHAT_FROZEN,0,0);return}
   if(t<7.8){listScene(P,t)}
   else{const u=ease(t,7.8,8.3);
     if(u<1){const L=off(PW,PH);listScene(L.getContext('2d'),t);P.drawImage(L,-PW*0.3*u,0)}
@@ -340,8 +341,8 @@ function riseText(txt,x,y,sz,wt,fam,stretch,col,t0,t,align='center'){const p=sp(
   X.fillStyle=col;X.fillText(txt,x,y+(1-clamp(p,0,1.2))*sz*1.2);X.restore()}
 
 // ================== seek(t): todo sale del tiempo ==================
-window.seek=async function(t){
-  t=((t%DUR)+DUR)%DUR;
+let CT=0;
+function seekFilm(t){
   X.setTransform(1,0,0,1,0,0);X.drawImage(PAPER,0,0);
 
   // ----- A. APERTURA (0–4 s) -----
@@ -378,8 +379,7 @@ window.seek=async function(t){
   }
   // ----- B/C. CAOS + IA (4.4–12.9 s) con el teléfono -----
   else if(t<13.0){
-    phoneContent(t);
-    if(t>=11.9&&!CHAT_FROZEN){CHAT_FROZEN=off(PW,PH);CHAT_FROZEN.getContext('2d').drawImage(PHC,0,0)}
+    phoneContent(CT);
     // cámara: zoom suave hacia la notificación al hacer click y alejamiento final
     const back=ease(t,12.0,12.8);const s=lerp(1,0.34,back);const cy=lerp(PY+PH/2,1320+PH*0.34/2,back);
     const I=drawPhone(t,s,W/2,cy);drawIsland(I);
@@ -426,9 +426,9 @@ window.seek=async function(t){
   // ----- F. PARED + CIERRE (22.7–27 s) -----
   else {
     X.drawImage(WALL,0,0);
-    riseText('Turnos por WhatsApp,',W/2,1560,74,800,'Archivo','118%',GR,24.0,t);
-    riseText('los agenda la IA.',W/2,1650,74,800,'Archivo','118%',GR,24.45,t);
-    riseText('Agendá · un sistema de BC Informática',W/2,1760,32,600,'Geist',null,VERDE,24.9,t);
+    riseText('Turnos por WhatsApp,',W/2,1390,74,800,'Archivo','118%',GR,24.0,t);
+    riseText('los agenda la IA.',W/2,1480,74,800,'Archivo','118%',GR,24.45,t);
+    riseText('Escribinos · BC Informática',W/2,1590,32,600,'Geist',null,VERDE,24.9,t);
     // negro que se contrae abriendo un agujero desde la cinta
     const hole=ease(t,23.2,23.75);
     if(hole<1){X.save();X.beginPath();X.rect(0,0,W,H);X.moveTo(W/2+hole*2400,300);X.arc(W/2,300,hole*2400,0,7,true);X.fillStyle=GR;X.fill('evenodd');X.restore()}
@@ -448,10 +448,19 @@ window.seek=async function(t){
   // cursor en todas las escenas
   if(!(t>22.6&&t<25.0))drawCursor(t);
   return true;
-};
+}
+// mapa de tiempo: salida (con voz) → tiempo de la película
+const OUT_DUR=30.55;
+const MAP=[[13.8,12.0],[16.2,14.4],[18.7,18.4],[25.2,24.9],[28.9,25.35],[30.55,27.0]];
+window.seek=async function(T){T=((T%OUT_DUR)+OUT_DUR)%OUT_DUR;
+  let t;FROZEN=false;
+  if(T<12.0){t=T;CT=T}
+  else if(T<13.8){t=11.99;CT=T}
+  else{FROZEN=true;CT=13.75;let i=0;while(i<MAP.length-2&&T>MAP[i+1][0])i++;const a=MAP[i],c=MAP[i+1];t=lerp(a[1],c[1],(T-a[0])/(c[0]-a[0]))}
+  seekFilm(t);return true};
 window.init=async()=>{for(const f of ['800 100px Archivo','600 40px Geist','400 40px Geist','700 40px Gaegu','400 40px Gaegu'])await document.fonts.load(f);
   buildCaches();wmLayout();
   // pre-congelar el chat final para que el render por cuadros sea puro
-  const keep=X.getTransform();phoneContent(11.95);CHAT_FROZEN=off(PW,PH);CHAT_FROZEN.getContext('2d').drawImage(PHC,0,0);return true};
+  const keep=X.getTransform();phoneContent(13.75);CHAT_FROZEN=off(PW,PH);CHAT_FROZEN.getContext('2d').drawImage(PHC,0,0);return true};
 
 </script></body></html>
