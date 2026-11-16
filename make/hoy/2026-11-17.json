@@ -1,0 +1,14 @@
+{
+ "fecha": "2026-11-17",
+ "slug": "reel-bitlocker",
+ "tipo": "reel",
+ "caption": "🚨 Caso real de esta semana: después de una actualización, la compu arrancó con la pantalla azul de BitLocker pidiendo una clave de recuperación.\n\nSin esa clave, el disco queda ilegible: fotos, documentos, años de trabajo. La única vía legítima es fijarte si la clave quedó guardada en tu cuenta de Microsoft (aka.ms/myrecoverykey).\n\nNo esperes a que te pase: hacé tu backup hoy, en un disco externo, en la nube o en los dos. ¿Necesitás ayuda con tus copias de seguridad? Escribinos por DM 📩\n\n📌 Guardalo y compartilo con quien lo necesite.\n\n#BitLocker #backup #seguridadinformatica #Windows #BCInformática #Paraná #EntreRíos",
+ "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/reels/reel-bitlocker.mp4",
+ "video_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/reels/reel-bitlocker.mp4",
+ "files": [
+  {
+   "media_type": "VIDEO",
+   "video_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/reels/reel-bitlocker.mp4"
+  }
+ ]
+}
