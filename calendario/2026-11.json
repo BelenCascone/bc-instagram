@@ -212,6 +212,18 @@
       "estado": "pendiente"
     },
     {
+      "fecha": "2026-12-11",
+      "hora": "12:00",
+      "slug": "reel-cecilia",
+      "tipo": "reel",
+      "media": [
+        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/reels/reel-cecilia.mp4"
+      ],
+      "caption": "¿Sabías que la primera programadora argentina empezó a estudiar a los 31? 👩‍💻\n\nCecilia Berdichevsky fue contadora durante 10 años. A los 31 se anotó en Matemática en la UBA y en 1961 programó a Clementina, la primera computadora científica del país.\n\nNunca es tarde para aprender tecnología. Si querés arrancar, damos clases de tecnología e IA: escribinos por DM 📩\n\nMandáselo a alguien que necesite leer esto 💚\n\nFotos de archivo.\n\n#mujeresentecnologia #historiadelacomputacion #Clementina #programacion #Paraná #EntreRíos #BCInformática",
+      "estado": "manual",
+      "nota": "Reel con voz en off incluida: lo sube Belén desde la app. La tarea diaria no lo publica."
+    },
+    {
       "fecha": "2026-12-12",
       "hora": "12:00",
       "slug": "sentido-comun",
