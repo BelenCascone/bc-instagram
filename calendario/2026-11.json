@@ -217,13 +217,14 @@
   {
    "fecha": "2026-12-02",
    "hora": "12:00",
-   "slug": "asistente-cena",
-   "tipo": "foto",
+   "slug": "reel-cobros-de-mas",
+   "tipo": "reel",
    "media": [
-    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-18-asistente-cena/s1.jpg"
+    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/reels/reel-cobros-de-mas.mp4"
    ],
-   "caption": "Vos disfrutá la cena. Tu asistente responde 🍝💬\n\nUn asistente automático contesta los turnos y las preguntas de siempre de tu negocio, aunque estés cenando, durmiendo o de vacaciones.\n\nEscribime AUTO y te cuento cómo funciona.\n\n#automatizacion #agentesdeia #emprendedores #Paraná #EntreRíos #BCInformática",
-   "estado": "pendiente"
+   "caption": "¿Te cobraron un arreglo que no hacía falta? 🧾\n\n«Tiene virus, hay que formatear», «hay que cambiar la batería», «se rompió el pin de carga», «hay que cambiar el ventilador»… No siempre: muchas veces es el disco lleno, un cargador, pelusa en el puerto o una buena limpieza.\n\nPedí el diagnóstico ANTES de pagar: qué tiene, por qué y cuánto sale. En BC Informática te lo explicamos claro 💚\n\n📌 Guardalo y compartilo.\n\n#serviciotecnico #reparaciondePC #consejos #BCInformática #Paraná #EntreRíos",
+   "estado": "manual",
+   "nota": "Reel con voz/audio incluido: lo sube Belén desde la app. La tarea diaria no lo publica."
   },
   {
    "fecha": "2026-12-03",
@@ -265,13 +266,14 @@
   {
    "fecha": "2026-12-07",
    "hora": "12:00",
-   "slug": "catalogo-retro",
-   "tipo": "foto",
+   "slug": "reel-que-compu-comprar",
+   "tipo": "reel",
    "media": [
-    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-07-catalogo-retro/s1.jpg"
+    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/reels/reel-que-compu-comprar.mp4"
    ],
-   "caption": "Catálogo BC · Edición 95 💾✨\n\nTres modelos, una misma idea: que la tecnología te simplifique la vida. Mantenimiento de PC, sistemas a medida y presencia digital.\n\n💬 ¿Cuál te llevás? Escribime \"PC\" por mensaje y vemos qué necesitás.\n\n#retro #sistemasamedida #serviciotecnico #BCInformática #Paraná #EntreRíos",
-   "estado": "pendiente"
+   "caption": "¿i5 o i7? Si eso es lo primero que mirás, pará 🛑\n\nLa generación manda, la letra del final te dice si es para batería o potencia, y en los Ryzen el tercer número cuenta más de lo que parece. Y no te olvides: 16 GB de RAM y disco SSD.\n\n¿Dudás con un modelo? Mandanos el link por DM y te decimos si vale lo que cuesta 💻\n\n📌 Guardalo para cuando vayas a comprar.\n\n#quecompucomprar #notebook #Intel #Ryzen #BCInformática #Paraná #EntreRíos",
+   "estado": "manual",
+   "nota": "Reel con voz/audio incluido: lo sube Belén desde la app. La tarea diaria no lo publica."
   },
   {
    "fecha": "2026-12-08",
@@ -428,6 +430,17 @@
    "estado": "pendiente"
   },
   {
+   "fecha": "2026-12-23",
+   "hora": "12:00",
+   "slug": "asistente-cena",
+   "tipo": "foto",
+   "media": [
+    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-18-asistente-cena/s1.jpg"
+   ],
+   "caption": "Vos disfrutá la cena. Tu asistente responde 🍝💬\n\nUn asistente automático contesta los turnos y las preguntas de siempre de tu negocio, aunque estés cenando, durmiendo o de vacaciones.\n\nEscribime AUTO y te cuento cómo funciona.\n\n#automatizacion #agentesdeia #emprendedores #Paraná #EntreRíos #BCInformática",
+   "estado": "pendiente"
+  },
+  {
    "fecha": "2026-12-24",
    "hora": "12:00",
    "slug": "chat-papa-noel",
@@ -518,6 +531,17 @@
     "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2027-01-04-tateti/s1.jpg"
    ],
    "caption": "Lunes de juego 🎮 ¿Dónde va el próximo mouse?\n\nComentá la casilla y fijate si alguien lo vio antes que vos 👇\n\n#lunesdejuego #tateti #informatica #humor #Paraná #EntreRíos #BCInformática",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2027-01-05",
+   "hora": "12:00",
+   "slug": "catalogo-retro",
+   "tipo": "foto",
+   "media": [
+    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-07-catalogo-retro/s1.jpg"
+   ],
+   "caption": "Catálogo BC · Edición 95 💾✨\n\nTres modelos, una misma idea: que la tecnología te simplifique la vida. Mantenimiento de PC, sistemas a medida y presencia digital.\n\n💬 ¿Cuál te llevás? Escribime \"PC\" por mensaje y vemos qué necesitás.\n\n#retro #sistemasamedida #serviciotecnico #BCInformática #Paraná #EntreRíos",
    "estado": "pendiente"
   },
   {
