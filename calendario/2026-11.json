@@ -226,6 +226,18 @@
    "estado": "pendiente"
   },
   {
+   "fecha": "2026-12-08",
+   "hora": "12:00",
+   "slug": "reel-impresora-urgencia",
+   "tipo": "reel",
+   "media": [
+    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/reels/reel-impresora-urgencia.mp4"
+   ],
+   "caption": "Cuando necesitás imprimir UNA hoja y es URGENTE 🖨️😤\n\nSin papel, PDF en blanco y negro, error misterioso… hasta que llega la técnica y de golpe «todo bien por acá» 🙄\n\nLas impresoras no fallan. Te eligen.\n\n¿La tuya también te eligió? Escribinos por DM y la revisamos 📩\n\n#impresoras #humorinformatico #soportetecnico #BCInformática #Paraná #EntreRíos",
+   "estado": "manual",
+   "nota": "Reel con voz/audio incluido: lo sube Belén desde la app. La tarea diaria no lo publica."
+  },
+  {
    "fecha": "2026-12-09",
    "hora": "12:00",
    "slug": "pantalla-azul",
@@ -235,6 +247,17 @@
     "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-09-pantalla-azul/s2.jpg"
    ],
    "caption": "Cuando aparece la pantalla azul 😱\n\nNo entres en pánico: deslizá y mirá qué hacer paso a paso 👉\n\nSi se repite, puede ser la memoria, el disco o un driver. Escribinos por DM y la revisamos 📩\n\n📌 Guardalo para cuando lo necesites.\n\n#pantallaazul #Windows #soportetecnico #BCInformática #Paraná #EntreRíos",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-12-10",
+   "hora": "12:00",
+   "slug": "vos-pones-la-idea",
+   "tipo": "foto",
+   "media": [
+    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-10-vos-pones-la-idea/s1.jpg"
+   ],
+   "caption": "Vos ponés la idea. Yo la convierto en sistema ✨\n\nTurnos, stock, clientes, ventas: si hoy lo manejás con papelitos o planillas, lo pasamos a un sistema simple, hecho a tu medida y a tu alcance.\n\nContame tu idea por DM 📩\n\n#sistemasamedida #emprendedores #BCInformática #Paraná #EntreRíos",
    "estado": "pendiente"
   },
   {
@@ -270,6 +293,18 @@
    ],
    "caption": "¿Tu compu anda bien? 🤔\n\nSi anda, la cuidamos con un mantenimiento preventivo. Si no anda, la arreglamos. Así de simple ✅\n\nMandame \"PC\" por mensaje y te digo qué tiene antes de cobrarte nada.\n\n#serviciotecnico #mantenimientopc #reparaciondepc #Paraná #EntreRíos #BCInformática",
    "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-12-15",
+   "hora": "12:00",
+   "slug": "reel-impresora-fuego",
+   "tipo": "reel",
+   "media": [
+    "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/reels/reel-impresora-fuego.mp4"
+   ],
+   "caption": "Lunes, 8:02 AM. «¿Podés ver la impresora? Quiero imprimir y no puedo 🙏»\n\nLo que pienso 🔥 vs. lo que respondo: «Sí, ya te la miro 🙂»\n\nLas impresoras detectan cuando las necesitás. Y ahí dejan de andar.\n\nSoporte técnico. Hasta para impresoras 💚 Escribinos por DM.\n\n#impresoras #humorinformatico #soportetecnico #BCInformática #Paraná #EntreRíos",
+   "estado": "manual",
+   "nota": "Reel con voz/audio incluido: lo sube Belén desde la app. La tarea diaria no lo publica."
   },
   {
    "fecha": "2026-12-16",
@@ -540,6 +575,12 @@
    "estado": "pendiente"
   },
   {
+   "fecha": "2026-11-18",
+   "slug": "estrellitas-reiniciando",
+   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-18-estrellitas-reiniciando/historia.jpg",
+   "estado": "pendiente"
+  },
+  {
    "fecha": "2026-11-19",
    "slug": "frase-word",
    "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-19-frase-word/historia.jpg",
@@ -552,9 +593,21 @@
    "estado": "pendiente"
   },
   {
+   "fecha": "2026-11-23",
+   "slug": "good-morming",
+   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-23-good-morming/historia.jpg",
+   "estado": "pendiente"
+  },
+  {
    "fecha": "2026-11-24",
    "slug": "querido-diario",
    "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-24-querido-diario/historia.jpg",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-11-25",
+   "slug": "estrellitas-windows",
+   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-25-estrellitas-windows/historia.jpg",
    "estado": "pendiente"
   },
   {
@@ -588,9 +641,21 @@
    "estado": "pendiente"
   },
   {
+   "fecha": "2026-12-03",
+   "slug": "estrellitas-reunion",
+   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-12-03-estrellitas-reunion/historia.jpg",
+   "estado": "pendiente"
+  },
+  {
    "fecha": "2026-12-04",
    "slug": "frase-procrastinando",
-   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-26-frase-procrastinando/historia.jpg",
+   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-12-04-frase-procrastinando/historia.jpg",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-12-07",
+   "slug": "estrellitas-wifi",
+   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-12-07-estrellitas-wifi/historia.jpg",
    "estado": "pendiente"
   },
   {
@@ -608,13 +673,19 @@
   {
    "fecha": "2026-12-10",
    "slug": "frase-internet-explorer",
-   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-19-frase-internet-explorer/historia.jpg",
+   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-12-10-frase-internet-explorer/historia.jpg",
    "estado": "pendiente"
   },
   {
    "fecha": "2026-12-11",
    "slug": "consejo-reiniciando",
-   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-11-19-consejo-reiniciando/historia.jpg",
+   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-12-11-consejo-reiniciando/historia.jpg",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-12-12",
+   "slug": "estrellitas-37-pestanas",
+   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-12-12-estrellitas-37-pestanas/historia.jpg",
    "estado": "pendiente"
   },
   {
@@ -642,9 +713,21 @@
    "estado": "pendiente"
   },
   {
+   "fecha": "2026-12-16",
+   "slug": "estrellitas-impresora",
+   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-12-16-estrellitas-impresora/historia.jpg",
+   "estado": "pendiente"
+  },
+  {
    "fecha": "2026-12-17",
    "slug": "hombre-actualizacion",
    "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-12-17-hombre-actualizacion/historia.jpg",
+   "estado": "pendiente"
+  },
+  {
+   "fecha": "2026-12-21",
+   "slug": "estrellitas-404",
+   "media": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/historias/2026-12-21-estrellitas-404/historia.jpg",
    "estado": "pendiente"
   },
   {
