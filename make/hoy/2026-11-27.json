@@ -1,14 +1,30 @@
 {
  "fecha": "2026-11-27",
- "slug": "reel-clementina",
- "tipo": "reel",
- "caption": "¿Sabés quién es Clementina? 🤔\n\nFue la primera computadora científica de la Argentina: arrancó en la UBA en mayo de 1961, medía 18 metros, no tenía teclado ni pantalla… y cantaba 🎶\n\nMandáselo a alguien que no lo sabía 👀\n\n#historiadelacomputacion #Clementina #informatica #tecnologia #Paraná #EntreRíos #BCInformática",
- "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/reels/reel-clementina.mp4",
- "video_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/reels/reel-clementina.mp4",
+ "slug": "yo-no-toque-nada",
+ "tipo": "carrusel",
+ "caption": "Grandes éxitos del soporte técnico 🎶💻\n\n¿Cuál dijiste vos? Confesá en los comentarios 😅\n\nY si la compu quedó rara después de \"instalar una cosita nomás\", mandame \"PC\" por mensaje y lo vemos.\n\n#soportetecnico #humor #serviciotecnico #Paraná #EntreRíos #BCInformática",
+ "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-27-yo-no-toque-nada/s1.jpg",
+ "video_url": "",
  "files": [
   {
-   "media_type": "VIDEO",
-   "video_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/reels/reel-clementina.mp4"
+   "media_type": "IMAGE",
+   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-27-yo-no-toque-nada/s1.jpg"
+  },
+  {
+   "media_type": "IMAGE",
+   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-27-yo-no-toque-nada/s2.jpg"
+  },
+  {
+   "media_type": "IMAGE",
+   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-27-yo-no-toque-nada/s3.jpg"
+  },
+  {
+   "media_type": "IMAGE",
+   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-27-yo-no-toque-nada/s4.jpg"
+  },
+  {
+   "media_type": "IMAGE",
+   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-27-yo-no-toque-nada/s5.jpg"
   }
  ]
 }

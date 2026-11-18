@@ -1,14 +1,18 @@
 {
  "fecha": "2026-12-08",
- "slug": "reel-impresora-urgencia",
- "tipo": "reel",
- "caption": "Cuando necesitás imprimir UNA hoja y es URGENTE 🖨️😤\n\nSin papel, PDF en blanco y negro, error misterioso… hasta que llega la técnica y de golpe «todo bien por acá» 🙄\n\nLas impresoras no fallan. Te eligen.\n\n¿La tuya también te eligió? Escribinos por DM y la revisamos 📩\n\n#impresoras #humorinformatico #soportetecnico #BCInformática #Paraná #EntreRíos",
- "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/reels/reel-impresora-urgencia.mp4",
- "video_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/reels/reel-impresora-urgencia.mp4",
+ "slug": "actualizaciones",
+ "tipo": "carrusel",
+ "caption": "Cuando la compu te pide actualizar por quinta vez 😩\n\n¿Por qué no darle siempre a «más tarde»? Deslizá y enterate 👉\n\nTip: hacelas al final del día y, antes de una grande, hacé una copia de tus archivos.\n\n📌 Guardalo y compartilo.\n\n#actualizaciones #Windows #seguridadinformatica #BCInformática #Paraná #EntreRíos",
+ "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-19-actualizaciones/s1.jpg",
+ "video_url": "",
  "files": [
   {
-   "media_type": "VIDEO",
-   "video_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/reels/reel-impresora-urgencia.mp4"
+   "media_type": "IMAGE",
+   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-19-actualizaciones/s1.jpg"
+  },
+  {
+   "media_type": "IMAGE",
+   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-19-actualizaciones/s2.jpg"
   }
  ]
 }

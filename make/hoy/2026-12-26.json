@@ -1,14 +1,30 @@
 {
  "fecha": "2026-12-26",
- "slug": "nube-service",
- "tipo": "foto",
- "caption": "Cuando las señales son claras… es hora de un service ☁️🔧\n\n¿Anda lenta, hace ruido o levanta temperatura? Arrancá el año con la compu al día: limpieza, mantenimiento y puesta a punto.\n\nEscribinos por DM y coordinamos 📩\n\n#servicetecnico #mantenimientopc #reparaciondepc #Paraná #EntreRíos #BCInformática",
- "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-26-nube-service/s1.jpg",
+ "slug": "elegi-un-numero",
+ "tipo": "carrusel",
+ "caption": "Elegí un número del 1 al 4 y deslizá 👉\n\nTe toca una tarea para cerrar el año con la compu (y el negocio) en orden.\n\n¿Cuál te tocó? Contanos en comentarios 👇\n\n#tipsinformaticos #backup #contraseñas #automatizacion #Paraná #EntreRíos #BCInformática",
+ "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-28-elegi-un-numero/s1.jpg",
  "video_url": "",
  "files": [
   {
    "media_type": "IMAGE",
-   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-26-nube-service/s1.jpg"
+   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-28-elegi-un-numero/s1.jpg"
+  },
+  {
+   "media_type": "IMAGE",
+   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-28-elegi-un-numero/s2.jpg"
+  },
+  {
+   "media_type": "IMAGE",
+   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-28-elegi-un-numero/s3.jpg"
+  },
+  {
+   "media_type": "IMAGE",
+   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-28-elegi-un-numero/s4.jpg"
+  },
+  {
+   "media_type": "IMAGE",
+   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-28-elegi-un-numero/s5.jpg"
   }
  ]
 }

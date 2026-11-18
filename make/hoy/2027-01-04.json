@@ -1,14 +1,30 @@
 {
  "fecha": "2027-01-04",
- "slug": "tateti",
- "tipo": "foto",
- "caption": "Lunes de juego 🎮 ¿Dónde va el próximo mouse?\n\nComentá la casilla y fijate si alguien lo vio antes que vos 👇\n\n#lunesdejuego #tateti #informatica #humor #Paraná #EntreRíos #BCInformática",
- "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2027-01-04-tateti/s1.jpg",
+ "slug": "clientes-the-office",
+ "tipo": "carrusel",
+ "caption": "Cosas que dicen los clientes y que hacen que el técnico envejezca 10 años en 5 minutos 😅\n\nEdición supervivencia, explicada con The Office 👉\n\n¿Cuál escuchaste (o dijiste 👀)? Contanos en los comentarios y etiquetá a ese amigo que nunca hace backup.\n\nTranqui: en BC Informática ya vimos de todo. Vos traé el problema, nosotros ponemos la solución 💚\n\n#humorinformatico #TheOffice #soportetecnico #BCInformática #Paraná #EntreRíos",
+ "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-28-clientes-the-office/s1.jpg",
  "video_url": "",
  "files": [
   {
    "media_type": "IMAGE",
-   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2027-01-04-tateti/s1.jpg"
+   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-28-clientes-the-office/s1.jpg"
+  },
+  {
+   "media_type": "IMAGE",
+   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-28-clientes-the-office/s2.jpg"
+  },
+  {
+   "media_type": "IMAGE",
+   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-28-clientes-the-office/s3.jpg"
+  },
+  {
+   "media_type": "IMAGE",
+   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-28-clientes-the-office/s4.jpg"
+  },
+  {
+   "media_type": "IMAGE",
+   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-28-clientes-the-office/s5.jpg"
   }
  ]
 }

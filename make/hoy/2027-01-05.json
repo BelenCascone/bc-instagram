@@ -1,14 +1,14 @@
 {
  "fecha": "2027-01-05",
- "slug": "catalogo-retro",
- "tipo": "foto",
- "caption": "Catálogo BC · Edición 95 💾✨\n\nTres modelos, una misma idea: que la tecnología te simplifique la vida. Mantenimiento de PC, sistemas a medida y presencia digital.\n\n💬 ¿Cuál te llevás? Escribime \"PC\" por mensaje y vemos qué necesitás.\n\n#retro #sistemasamedida #serviciotecnico #BCInformática #Paraná #EntreRíos",
- "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-07-catalogo-retro/s1.jpg",
- "video_url": "",
+ "slug": "reel-noticia-agentes",
+ "tipo": "reel",
+ "caption": "NOTICIA 📢 Agentes de IA a medida para tu negocio.\n\nResponden mensajes, agendan turnos, arman presupuestos y te ordenan el día. Y además te enseñamos a usarlos.\n\n¿Qué tarea le darías al tuyo? Contanos en comentarios 👇\n\n#agentesdeIA #inteligenciaartificial #automatizacion #emprendedores #Paraná #EntreRíos #BCInformática",
+ "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/reels/reel-noticia-agentes.mp4",
+ "video_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/reels/reel-noticia-agentes.mp4",
  "files": [
   {
-   "media_type": "IMAGE",
-   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-07-catalogo-retro/s1.jpg"
+   "media_type": "VIDEO",
+   "video_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/reels/reel-noticia-agentes.mp4"
   }
  ]
 }

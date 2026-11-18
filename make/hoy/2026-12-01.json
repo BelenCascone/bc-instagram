@@ -1,14 +1,22 @@
 {
  "fecha": "2026-12-01",
- "slug": "papa-noel-busca",
- "tipo": "foto",
- "caption": "Hasta Papá Noel googlea «quiero que mi compu ande» 🎅💻\n\nY la mejor sugerencia es la última 😉 Si tu compu está lenta, se tilda o no arranca, dejala lista antes de las fiestas: arreglo, mantenimiento y asesoramiento en Paraná.\n\nEscribinos por DM y la dejamos andando para Navidad 🎄\n\n#Navidad #servicetecnico #reparaciondePC #BCInformática #Paraná #EntreRíos",
- "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-01-papa-noel-busca/s1.jpg",
+ "slug": "estafas",
+ "tipo": "carrusel",
+ "caption": "🚨 Último momento: crecen las estafas con billeteras virtuales.\n\nDeslizá para ver las 5 señales de que te quieren estafar y qué hacer si ya caíste 👉\n\n📌 Guardalo y compartilo con quien más lo necesite (sí, esa tía 😅).\n\n#estafas #seguridadinformatica #billeteravirtual #BCInformática #Paraná #EntreRíos",
+ "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-25-estafas/s1.jpg",
  "video_url": "",
  "files": [
   {
    "media_type": "IMAGE",
-   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-01-papa-noel-busca/s1.jpg"
+   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-25-estafas/s1.jpg"
+  },
+  {
+   "media_type": "IMAGE",
+   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-25-estafas/s2.jpg"
+  },
+  {
+   "media_type": "IMAGE",
+   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-25-estafas/s3.jpg"
   }
  ]
 }

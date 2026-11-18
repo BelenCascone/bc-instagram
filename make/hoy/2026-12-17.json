@@ -1,14 +1,26 @@
 {
  "fecha": "2026-12-17",
- "slug": "podemos-automatizarlo",
- "tipo": "foto",
- "caption": "Sé un \"podemos automatizarlo\" en un mundo lleno de \"siempre lo hicimos a mano\" ✨\n\nTus tareas de todos los días también se pueden automatizar. Escribime AUTO y te cuento cómo.\n\n#automatizacion #emprendedores #productividad #Paraná #EntreRíos #BCInformática",
- "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-23-podemos-automatizarlo/s1.jpg",
+ "slug": "puertos-de-tu-pc",
+ "tipo": "carrusel",
+ "caption": "Los puertos de tu PC 🔌\n\nUSB-A, USB-C, HDMI, Ethernet, audio y DisplayPort: deslizá y descubrí para qué sirve cada uno 👉\n\n💬 ¿Dudas con algún cable o conexión? Escribime \"PC\" por mensaje.\n\n#puertosPC #hardware #aprendeinformatica #BCInformática #Paraná #EntreRíos",
+ "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-03-puertos-de-tu-pc/s1.jpg",
  "video_url": "",
  "files": [
   {
    "media_type": "IMAGE",
-   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-23-podemos-automatizarlo/s1.jpg"
+   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-03-puertos-de-tu-pc/s1.jpg"
+  },
+  {
+   "media_type": "IMAGE",
+   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-03-puertos-de-tu-pc/s2.jpg"
+  },
+  {
+   "media_type": "IMAGE",
+   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-03-puertos-de-tu-pc/s3.jpg"
+  },
+  {
+   "media_type": "IMAGE",
+   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-03-puertos-de-tu-pc/s4.jpg"
   }
  ]
 }
