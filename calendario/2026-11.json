@@ -83,6 +83,18 @@
     {
       "fecha": "2026-11-19",
       "hora": "12:00",
+      "slug": "reel-clementina",
+      "tipo": "reel",
+      "media": [
+        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/reels/reel-clementina.mp4"
+      ],
+      "caption": "¿Sabés quién es Clementina? 🤔\n\nFue la primera computadora científica de la Argentina: arrancó en la UBA en mayo de 1961, medía 18 metros, no tenía teclado ni pantalla… y cantaba 🎶\n\nMandáselo a alguien que no lo sabía 👀\n\n#historiadelacomputacion #Clementina #informatica #tecnologia #Paraná #EntreRíos #BCInformática",
+      "estado": "pendiente",
+      "nota": "Reel con voz en off incluida: lo sube Belén desde la app. La tarea diaria no lo publica."
+    },
+    {
+      "fecha": "2026-11-20",
+      "hora": "12:00",
       "slug": "ia-8k",
       "tipo": "foto",
       "media": [
@@ -92,27 +104,14 @@
       "estado": "pendiente"
     },
     {
-      "fecha": "2026-11-20",
-      "hora": "12:00",
-      "slug": "reel-panel-de-seguimiento",
-      "tipo": "reel",
-      "media": [
-        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/reels/reel-panel-loop.mp4"
-      ],
-      "caption": "Tu negocio, sin el «sin» 😉\n\nPedidos, clientes, stock, ventas y turnos en un solo panel hecho para tu emprendimiento. A tu medida y a tu alcance.\n\nEscribinos por DM y te mostramos cómo quedaría el tuyo 📩\n\n#sistemasamedida #emprendedores #pymes #gestion #Paraná #EntreRíos #BCInformática",
-      "estado": "pendiente",
-      "nota": "Reel: lo sube Belén desde la app para ponerle audio en tendencia (120 BPM). La tarea diaria no lo publica."
-    },
-    {
       "fecha": "2026-11-21",
       "hora": "12:00",
-      "slug": "contrasenas-tips",
-      "tipo": "carrusel",
+      "slug": "test-de-vista",
+      "tipo": "foto",
       "media": [
-        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-21-contrasenas-tips/s1.jpg",
-        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-21-contrasenas-tips/s2.jpg"
+        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-30-test-de-vista/s1.jpg"
       ],
-      "caption": "¿Tu contraseña te da vergüenza? 🙈\n\nDeslizá y fijate los 4 tips para que nadie la adivine: frase larga, una distinta por cuenta, un gestor de contraseñas y la verificación en dos pasos 👉\n\n📌 Guardalo y compartilo con quien todavía usa «123456».\n\n#contraseñas #seguridadinformatica #tips #BCInformática #Paraná #EntreRíos",
+      "caption": "Test de vista 👀🍌\n\nSi la ves violeta, no es la vista: es tu negocio pidiendo un sistema a medida. Y no, no es carísimo ni solo para grandes empresas.\n\n¿De qué color la ves? 👇\n\n#informatica #sistemasamedida #emprendedores #Paraná #EntreRíos #BCInformática",
       "estado": "pendiente"
     },
     {
@@ -154,23 +153,24 @@
     {
       "fecha": "2026-11-25",
       "hora": "12:00",
-      "slug": "cartel-servicios",
-      "tipo": "foto",
+      "slug": "reel-panel-de-seguimiento",
+      "tipo": "reel",
       "media": [
-        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-19-cartel-servicios/s1.jpg"
+        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/reels/reel-panel-loop.mp4"
       ],
-      "caption": "¿Cuál arrancás vos? ✂️👀\n\nArreglo de PC, asesoramiento, sistemas a medida, presencia digital, clases y agentes de IA.\n\n💬 Escribime \"PC\" por mensaje y vemos qué necesitás.\n\n#BCInformática #serviciotecnico #emprendedores #Paraná #EntreRíos",
-      "estado": "pendiente"
+      "caption": "Tu negocio, sin el «sin» 😉\n\nPedidos, clientes, stock, ventas y turnos en un solo panel hecho para tu emprendimiento. A tu medida y a tu alcance.\n\nEscribinos por DM y te mostramos cómo quedaría el tuyo 📩\n\n#sistemasamedida #emprendedores #pymes #gestion #Paraná #EntreRíos #BCInformática",
+      "estado": "pendiente",
+      "nota": "Reel: lo sube Belén desde la app para ponerle audio en tendencia (120 BPM). La tarea diaria no lo publica."
     },
     {
       "fecha": "2026-11-26",
       "hora": "12:00",
-      "slug": "reel-clementina",
+      "slug": "reel-cecilia",
       "tipo": "reel",
       "media": [
-        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/reels/reel-clementina.mp4"
+        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/reels/reel-cecilia.mp4"
       ],
-      "caption": "¿Sabés quién es Clementina? 🤔\n\nFue la primera computadora científica de la Argentina: arrancó en la UBA en mayo de 1961, medía 18 metros, no tenía teclado ni pantalla… y cantaba 🎶\n\nMandáselo a alguien que no lo sabía 👀\n\n#historiadelacomputacion #Clementina #informatica #tecnologia #Paraná #EntreRíos #BCInformática",
+      "caption": "¿Sabías que la primera programadora argentina empezó a estudiar a los 31? 👩‍💻\n\nCecilia Berdichevsky fue contadora durante 10 años. A los 31 se anotó en Matemática en la UBA y en 1961 programó a Clementina, la primera computadora científica del país.\n\nNunca es tarde para aprender tecnología. Si querés arrancar, damos clases de tecnología e IA: escribinos por DM 📩\n\nMandáselo a alguien que necesite leer esto 💚\n\nFotos de archivo.\n\n#mujeresentecnologia #historiadelacomputacion #Clementina #programacion #Paraná #EntreRíos #BCInformática",
       "estado": "pendiente",
       "nota": "Reel con voz en off incluida: lo sube Belén desde la app. La tarea diaria no lo publica."
     },
@@ -251,14 +251,16 @@
     {
       "fecha": "2026-12-03",
       "hora": "12:00",
-      "slug": "reel-cecilia",
-      "tipo": "reel",
+      "slug": "dentro-de-tu-pc",
+      "tipo": "carrusel",
       "media": [
-        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/reels/reel-cecilia.mp4"
+        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-01-dentro-de-tu-pc/s1.jpg",
+        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-01-dentro-de-tu-pc/s2.jpg",
+        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-01-dentro-de-tu-pc/s3.jpg",
+        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-01-dentro-de-tu-pc/s4.jpg"
       ],
-      "caption": "¿Sabías que la primera programadora argentina empezó a estudiar a los 31? 👩‍💻\n\nCecilia Berdichevsky fue contadora durante 10 años. A los 31 se anotó en Matemática en la UBA y en 1961 programó a Clementina, la primera computadora científica del país.\n\nNunca es tarde para aprender tecnología. Si querés arrancar, damos clases de tecnología e IA: escribinos por DM 📩\n\nMandáselo a alguien que necesite leer esto 💚\n\nFotos de archivo.\n\n#mujeresentecnologia #historiadelacomputacion #Clementina #programacion #Paraná #EntreRíos #BCInformática",
-      "estado": "pendiente",
-      "nota": "Reel con voz en off incluida: lo sube Belén desde la app. La tarea diaria no lo publica."
+      "caption": "¿Sabés qué hay dentro de tu compu? 🖥️\n\nProcesador, placa madre, RAM, disco, placa de video y fuente: deslizá y conocé para qué sirve cada pieza 👉\n\n📌 Guardalo para cuando tengas que elegir tu próxima compu.\n\n#hardware #componentesPC #aprendeinformatica #BCInformática #Paraná #EntreRíos",
+      "estado": "pendiente"
     },
     {
       "fecha": "2026-12-04",
@@ -332,15 +334,15 @@
     {
       "fecha": "2026-12-10",
       "hora": "12:00",
-      "slug": "dentro-de-tu-pc",
+      "slug": "puertos-de-tu-pc",
       "tipo": "carrusel",
       "media": [
-        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-01-dentro-de-tu-pc/s1.jpg",
-        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-01-dentro-de-tu-pc/s2.jpg",
-        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-01-dentro-de-tu-pc/s3.jpg",
-        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-01-dentro-de-tu-pc/s4.jpg"
+        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-03-puertos-de-tu-pc/s1.jpg",
+        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-03-puertos-de-tu-pc/s2.jpg",
+        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-03-puertos-de-tu-pc/s3.jpg",
+        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-03-puertos-de-tu-pc/s4.jpg"
       ],
-      "caption": "¿Sabés qué hay dentro de tu compu? 🖥️\n\nProcesador, placa madre, RAM, disco, placa de video y fuente: deslizá y conocé para qué sirve cada pieza 👉\n\n📌 Guardalo para cuando tengas que elegir tu próxima compu.\n\n#hardware #componentesPC #aprendeinformatica #BCInformática #Paraná #EntreRíos",
+      "caption": "Los puertos de tu PC 🔌\n\nUSB-A, USB-C, HDMI, Ethernet, audio y DisplayPort: deslizá y descubrí para qué sirve cada uno 👉\n\n💬 ¿Dudas con algún cable o conexión? Escribime \"PC\" por mensaje.\n\n#puertosPC #hardware #aprendeinformatica #BCInformática #Paraná #EntreRíos",
       "estado": "pendiente"
     },
     {
@@ -357,12 +359,13 @@
     {
       "fecha": "2026-12-12",
       "hora": "12:00",
-      "slug": "test-de-vista",
-      "tipo": "foto",
+      "slug": "contrasenas-tips",
+      "tipo": "carrusel",
       "media": [
-        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-30-test-de-vista/s1.jpg"
+        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-21-contrasenas-tips/s1.jpg",
+        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-21-contrasenas-tips/s2.jpg"
       ],
-      "caption": "Test de vista 👀🍌\n\nSi la ves violeta, no es la vista: es tu negocio pidiendo un sistema a medida. Y no, no es carísimo ni solo para grandes empresas.\n\n¿De qué color la ves? 👇\n\n#informatica #sistemasamedida #emprendedores #Paraná #EntreRíos #BCInformática",
+      "caption": "¿Tu contraseña te da vergüenza? 🙈\n\nDeslizá y fijate los 4 tips para que nadie la adivine: frase larga, una distinta por cuenta, un gestor de contraseñas y la verificación en dos pasos 👉\n\n📌 Guardalo y compartilo con quien todavía usa «123456».\n\n#contraseñas #seguridadinformatica #tips #BCInformática #Paraná #EntreRíos",
       "estado": "pendiente"
     },
     {
@@ -414,15 +417,12 @@
     {
       "fecha": "2026-12-17",
       "hora": "12:00",
-      "slug": "puertos-de-tu-pc",
-      "tipo": "carrusel",
+      "slug": "dino-sin-conexion",
+      "tipo": "foto",
       "media": [
-        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-03-puertos-de-tu-pc/s1.jpg",
-        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-03-puertos-de-tu-pc/s2.jpg",
-        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-03-puertos-de-tu-pc/s3.jpg",
-        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-03-puertos-de-tu-pc/s4.jpg"
+        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2027-01-02-dino-sin-conexion/s1.jpg"
       ],
-      "caption": "Los puertos de tu PC 🔌\n\nUSB-A, USB-C, HDMI, Ethernet, audio y DisplayPort: deslizá y descubrí para qué sirve cada uno 👉\n\n💬 ¿Dudas con algún cable o conexión? Escribime \"PC\" por mensaje.\n\n#puertosPC #hardware #aprendeinformatica #BCInformática #Paraná #EntreRíos",
+      "caption": "¿Tu negocio sigue sin conexión? 🦖\n\nLa gente te busca online antes de ir. Este año, que te encuentren: te armamos Google, Instagram y web.\n\nEscribinos por DM y arrancamos 📩\n\n#presenciadigital #negocioslocales #emprendedores #marketingdigital #Paraná #EntreRíos #BCInformática",
       "estado": "pendiente"
     },
     {
@@ -644,15 +644,16 @@
       "nota": "Reel: lo sube Belén desde la app para ponerle audio en tendencia (120 BPM). La tarea diaria no lo publica."
     },
     {
-      "fecha": "2027-01-07",
+      "fecha": null,
       "hora": "12:00",
-      "slug": "dino-sin-conexion",
+      "slug": "cartel-servicios",
       "tipo": "foto",
       "media": [
-        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2027-01-02-dino-sin-conexion/s1.jpg"
+        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-19-cartel-servicios/s1.jpg"
       ],
-      "caption": "¿Tu negocio sigue sin conexión? 🦖\n\nLa gente te busca online antes de ir. Este año, que te encuentren: te armamos Google, Instagram y web.\n\nEscribinos por DM y arrancamos 📩\n\n#presenciadigital #negocioslocales #emprendedores #marketingdigital #Paraná #EntreRíos #BCInformática",
-      "estado": "pendiente"
+      "caption": "¿Cuál arrancás vos? ✂️👀\n\nArreglo de PC, asesoramiento, sistemas a medida, presencia digital, clases y agentes de IA.\n\n💬 Escribime \"PC\" por mensaje y vemos qué necesitás.\n\n#BCInformática #serviciotecnico #emprendedores #Paraná #EntreRíos",
+      "estado": "sin_programar",
+      "nota": "Reserva (18/11)."
     },
     {
       "fecha": null,

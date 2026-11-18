@@ -1,14 +1,26 @@
 {
  "fecha": "2026-12-03",
- "slug": "reel-cecilia",
- "tipo": "reel",
- "caption": "¿Sabías que la primera programadora argentina empezó a estudiar a los 31? 👩‍💻\n\nCecilia Berdichevsky fue contadora durante 10 años. A los 31 se anotó en Matemática en la UBA y en 1961 programó a Clementina, la primera computadora científica del país.\n\nNunca es tarde para aprender tecnología. Si querés arrancar, damos clases de tecnología e IA: escribinos por DM 📩\n\nMandáselo a alguien que necesite leer esto 💚\n\nFotos de archivo.\n\n#mujeresentecnologia #historiadelacomputacion #Clementina #programacion #Paraná #EntreRíos #BCInformática",
- "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/reels/reel-cecilia.mp4",
- "video_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/reels/reel-cecilia.mp4",
+ "slug": "dentro-de-tu-pc",
+ "tipo": "carrusel",
+ "caption": "¿Sabés qué hay dentro de tu compu? 🖥️\n\nProcesador, placa madre, RAM, disco, placa de video y fuente: deslizá y conocé para qué sirve cada pieza 👉\n\n📌 Guardalo para cuando tengas que elegir tu próxima compu.\n\n#hardware #componentesPC #aprendeinformatica #BCInformática #Paraná #EntreRíos",
+ "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-01-dentro-de-tu-pc/s1.jpg",
+ "video_url": "",
  "files": [
   {
-   "media_type": "VIDEO",
-   "video_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/reels/reel-cecilia.mp4"
+   "media_type": "IMAGE",
+   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-01-dentro-de-tu-pc/s1.jpg"
+  },
+  {
+   "media_type": "IMAGE",
+   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-01-dentro-de-tu-pc/s2.jpg"
+  },
+  {
+   "media_type": "IMAGE",
+   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-01-dentro-de-tu-pc/s3.jpg"
+  },
+  {
+   "media_type": "IMAGE",
+   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-01-dentro-de-tu-pc/s4.jpg"
   }
  ]
 }
