@@ -1,22 +1,14 @@
 {
  "fecha": "2026-12-01",
- "slug": "estafas",
- "tipo": "carrusel",
- "caption": "🚨 Último momento: crecen las estafas con billeteras virtuales.\n\nDeslizá para ver las 5 señales de que te quieren estafar y qué hacer si ya caíste 👉\n\n📌 Guardalo y compartilo con quien más lo necesite (sí, esa tía 😅).\n\n#estafas #seguridadinformatica #billeteravirtual #BCInformática #Paraná #EntreRíos",
- "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-25-estafas/s1.jpg",
- "video_url": "",
+ "slug": "reel-link-cumpleanos",
+ "tipo": "reel",
+ "caption": "⚠️ ALERTA: abrió el link de una invitación de cumpleaños… y le vaciaron la cuenta.\n\nLa «invitación en video» llega por WhatsApp o aparece en Facebook. Al abrirla te pide instalar algo o simula una «actualización del sistema», y mientras tanto te sacan la plata del banco.\n\n¿Cómo te cuidás?\n1️⃣ Instalá apps solo desde Play Store o App Store.\n2️⃣ Nunca instales lo que te mandan por WhatsApp.\n3️⃣ Si el celu se apaga solo o te pide actualizar, sacalo de internet y llamá al banco.\n\n📲 Compartilo con quien siempre abre todos los links.\n\n#estafas #seguridadinformatica #WhatsApp #ciberseguridad #Paraná #EntreRíos #BCInformática",
+ "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/reels/reel-link-cumpleanos.mp4",
+ "video_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/reels/reel-link-cumpleanos.mp4",
  "files": [
   {
-   "media_type": "IMAGE",
-   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-25-estafas/s1.jpg"
-  },
-  {
-   "media_type": "IMAGE",
-   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-25-estafas/s2.jpg"
-  },
-  {
-   "media_type": "IMAGE",
-   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-11-25-estafas/s3.jpg"
+   "media_type": "VIDEO",
+   "video_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/reels/reel-link-cumpleanos.mp4"
   }
  ]
 }
