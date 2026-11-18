@@ -523,6 +523,18 @@
       "estado": "pendiente"
     },
     {
+      "fecha": "2026-12-27",
+      "hora": "12:00",
+      "slug": "atajo-win-d",
+      "tipo": "foto",
+      "media": [
+        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-27-atajo-win-d/s1.jpg"
+      ],
+      "caption": "Atajos de Windows #06 ⌨️\n\nWin + D: minimiza todas las ventanas y te deja en el escritorio en un segundo 🪟💨 Apretalo de nuevo y vuelve todo como estaba.\n\nIdeal para encontrar ese archivo que guardaste en el escritorio (o para cuando alguien se acerca a tu pantalla 👀).\n\n📌 Guardalo y seguinos para el próximo atajo.\n\n#atajosdeteclado #Windows #tips #productividad #Paraná #EntreRíos #BCInformática",
+      "estado": "pendiente",
+      "nota": "Serie Atajos de Windows (domingos)"
+    },
+    {
       "fecha": "2026-12-28",
       "hora": "12:00",
       "slug": "elegi-un-numero",
