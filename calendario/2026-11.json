@@ -370,6 +370,18 @@
       "estado": "pendiente"
     },
     {
+      "fecha": "2026-12-13",
+      "hora": "12:00",
+      "slug": "atajo-win-l",
+      "tipo": "foto",
+      "media": [
+        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-13-atajo-win-l/s1.jpg"
+      ],
+      "caption": "Atajos de Windows #04 ⌨️\n\nWin + L: te levantás un minuto y la compu queda bloqueada al instante. Nadie ve tus mails, tu banco ni tus chats 🔒\n\nPara volver ponés tu contraseña o PIN y todo sigue como lo dejaste.\n\n📌 Guardalo y seguinos para el próximo atajo.\n\n#atajosdeteclado #Windows #seguridadinformatica #tips #Paraná #EntreRíos #BCInformática",
+      "estado": "pendiente",
+      "nota": "Serie Atajos de Windows (domingos)"
+    },
+    {
       "fecha": "2026-12-14",
       "hora": "12:00",
       "slug": "tu-compu-anda-bien",
