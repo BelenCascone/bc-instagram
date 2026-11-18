@@ -452,6 +452,18 @@
       "estado": "pendiente"
     },
     {
+      "fecha": "2026-12-20",
+      "hora": "12:00",
+      "slug": "atajo-win-punto",
+      "tipo": "foto",
+      "media": [
+        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-20-atajo-win-punto/s1.jpg"
+      ],
+      "caption": "Atajos de Windows #05 ⌨️\n\nWin + . (la tecla del punto): abre los emojis en cualquier programa, en Word, el mail o WhatsApp Web 😄🎄\n\nTambién tiene GIFs y símbolos como °, € o ©, ideal para los saludos de fin de año.\n\n📌 Guardalo y seguinos para el próximo atajo.\n\n#atajosdeteclado #Windows #tips #emojis #Paraná #EntreRíos #BCInformática",
+      "estado": "pendiente",
+      "nota": "Serie Atajos de Windows (domingos)"
+    },
+    {
       "fecha": "2026-12-21",
       "hora": "12:00",
       "slug": "yo-no-toque-nada",
