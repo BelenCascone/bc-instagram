@@ -288,6 +288,18 @@
       "estado": "pendiente"
     },
     {
+      "fecha": "2026-12-06",
+      "hora": "12:00",
+      "slug": "atajo-ctrl-shift-t",
+      "tipo": "foto",
+      "media": [
+        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-06-atajo-ctrl-shift-t/s1.jpg"
+      ],
+      "caption": "Atajos de Windows #03 ⌨️\n\nCtrl + Shift + T: ¿cerraste una pestaña sin querer? Vuelve a abrirse tal cual estaba 🙌 Si lo repetís, recupera las anteriores.\n\nAnda en Chrome, Edge y Firefox.\n\n📌 Guardalo y seguinos para el próximo atajo.\n\n#atajosdeteclado #Windows #tips #productividad #Paraná #EntreRíos #BCInformática",
+      "estado": "pendiente",
+      "nota": "Serie Atajos de Windows (domingos)"
+    },
+    {
       "fecha": "2026-12-07",
       "hora": "12:00",
       "slug": "reel-que-compu-comprar",
