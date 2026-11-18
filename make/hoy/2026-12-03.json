@@ -1,26 +1,14 @@
 {
  "fecha": "2026-12-03",
- "slug": "dentro-de-tu-pc",
- "tipo": "carrusel",
- "caption": "¿Sabés qué hay dentro de tu compu? 🖥️\n\nProcesador, placa madre, RAM, disco, placa de video y fuente: deslizá y conocé para qué sirve cada pieza 👉\n\n📌 Guardalo para cuando tengas que elegir tu próxima compu.\n\n#hardware #componentesPC #aprendeinformatica #BCInformática #Paraná #EntreRíos",
- "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-01-dentro-de-tu-pc/s1.jpg",
- "video_url": "",
+ "slug": "reel-mouse",
+ "tipo": "reel",
+ "caption": "🖱️ ¿Qué harías si mañana tu compu no tuviera mouse?\n\nEn 1964, en California, Douglas Engelbart inventó una cajita de madera con dos ruedas. En 1968 la mostró al mundo… y nunca cobró regalías por ella. Hoy, más de 60 años después, sigue en tu escritorio.\n\n¿Cuántos clics hiciste hoy? Comentá tu número 👇\nY si tu mouse hace cosas raras, escribime.\n\n#historiadelainformatica #mouse #tecnologia #quepasariasi #Paraná #EntreRíos #BCInformática",
+ "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/reels/reel-mouse.mp4",
+ "video_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/reels/reel-mouse.mp4",
  "files": [
   {
-   "media_type": "IMAGE",
-   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-01-dentro-de-tu-pc/s1.jpg"
-  },
-  {
-   "media_type": "IMAGE",
-   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-01-dentro-de-tu-pc/s2.jpg"
-  },
-  {
-   "media_type": "IMAGE",
-   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-01-dentro-de-tu-pc/s3.jpg"
-  },
-  {
-   "media_type": "IMAGE",
-   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-01-dentro-de-tu-pc/s4.jpg"
+   "media_type": "VIDEO",
+   "video_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/reels/reel-mouse.mp4"
   }
  ]
 }
