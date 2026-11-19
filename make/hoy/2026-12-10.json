@@ -1,26 +1,14 @@
 {
  "fecha": "2026-12-10",
- "slug": "dentro-de-tu-pc",
- "tipo": "carrusel",
- "caption": "¿Sabés qué hay dentro de tu compu? 🖥️\n\nProcesador, placa madre, RAM, disco, placa de video y fuente: deslizá y conocé para qué sirve cada pieza 👉\n\n📌 Guardalo para cuando tengas que elegir tu próxima compu.\n\n#hardware #componentesPC #aprendeinformatica #BCInformática #Paraná #EntreRíos",
- "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-01-dentro-de-tu-pc/s1.jpg",
- "video_url": "",
+ "slug": "reel-hedy-lamarr",
+ "tipo": "reel",
+ "caption": "🎬📶 ¿Sabías que el WiFi y el Bluetooth tienen una abuela… y era actriz de Hollywood?\n\nHedy Lamarr y el compositor George Antheil patentaron en 1942 una señal que salta entre 88 frecuencias, como las teclas de un piano. La Marina la archivó y Hedy nunca cobró un peso por su idea.\n\n¿Qué otro invento querés que contemos? Comentalo 👇\n\n#historiadelacomputacion #HedyLamarr #wifi #bluetooth #informatica #Paraná #EntreRíos #BCInformática",
+ "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/reels/reel-hedy-lamarr.mp4",
+ "video_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/reels/reel-hedy-lamarr.mp4",
  "files": [
   {
-   "media_type": "IMAGE",
-   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-01-dentro-de-tu-pc/s1.jpg"
-  },
-  {
-   "media_type": "IMAGE",
-   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-01-dentro-de-tu-pc/s2.jpg"
-  },
-  {
-   "media_type": "IMAGE",
-   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-01-dentro-de-tu-pc/s3.jpg"
-  },
-  {
-   "media_type": "IMAGE",
-   "image_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-01-dentro-de-tu-pc/s4.jpg"
+   "media_type": "VIDEO",
+   "video_url": "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/reels/reel-hedy-lamarr.mp4"
   }
  ]
 }

@@ -332,16 +332,14 @@
     {
       "fecha": "2026-12-10",
       "hora": "12:00",
-      "slug": "dentro-de-tu-pc",
-      "tipo": "carrusel",
+      "slug": "reel-hedy-lamarr",
+      "tipo": "reel",
       "media": [
-        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-01-dentro-de-tu-pc/s1.jpg",
-        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-01-dentro-de-tu-pc/s2.jpg",
-        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-01-dentro-de-tu-pc/s3.jpg",
-        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-01-dentro-de-tu-pc/s4.jpg"
+        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/reels/reel-hedy-lamarr.mp4"
       ],
-      "caption": "¿Sabés qué hay dentro de tu compu? 🖥️\n\nProcesador, placa madre, RAM, disco, placa de video y fuente: deslizá y conocé para qué sirve cada pieza 👉\n\n📌 Guardalo para cuando tengas que elegir tu próxima compu.\n\n#hardware #componentesPC #aprendeinformatica #BCInformática #Paraná #EntreRíos",
-      "estado": "pendiente"
+      "caption": "🎬📶 ¿Sabías que el WiFi y el Bluetooth tienen una abuela… y era actriz de Hollywood?\n\nHedy Lamarr y el compositor George Antheil patentaron en 1942 una señal que salta entre 88 frecuencias, como las teclas de un piano. La Marina la archivó y Hedy nunca cobró un peso por su idea.\n\n¿Qué otro invento querés que contemos? Comentalo 👇\n\n#historiadelacomputacion #HedyLamarr #wifi #bluetooth #informatica #Paraná #EntreRíos #BCInformática",
+      "estado": "pendiente",
+      "nota": "Content Factory (Higgsfield) · estilo Wash Atlas · voz Juanma (ElevenLabs) · 49 s · cierre con logo real."
     },
     {
       "fecha": "2026-12-11",
@@ -654,6 +652,20 @@
       ],
       "caption": "¿Tu negocio sigue sin conexión? 🦖\n\nLa gente te busca online antes de ir. Este año, que te encuentren: te armamos Google, Instagram y web.\n\nEscribinos por DM y arrancamos 📩\n\n#presenciadigital #negocioslocales #emprendedores #marketingdigital #Paraná #EntreRíos #BCInformática",
       "estado": "pendiente"
+    },
+    {
+      "fecha": null,
+      "hora": "12:00",
+      "slug": "dentro-de-tu-pc",
+      "tipo": "carrusel",
+      "media": [
+        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-01-dentro-de-tu-pc/s1.jpg",
+        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-01-dentro-de-tu-pc/s2.jpg",
+        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-01-dentro-de-tu-pc/s3.jpg",
+        "https://raw.githubusercontent.com/BelenCascone/bc-instagram/main/media/2026-12-01-dentro-de-tu-pc/s4.jpg"
+      ],
+      "caption": "¿Sabés qué hay dentro de tu compu? 🖥️\n\nProcesador, placa madre, RAM, disco, placa de video y fuente: deslizá y conocé para qué sirve cada pieza 👉\n\n📌 Guardalo para cuando tengas que elegir tu próxima compu.\n\n#hardware #componentesPC #aprendeinformatica #BCInformática #Paraná #EntreRíos",
+      "estado": "sin_programar"
     },
     {
       "fecha": null,
